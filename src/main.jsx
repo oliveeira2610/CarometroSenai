@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+<<<<<<< HEAD
 import Login from './Login.jsx'
 import Home from './Home.jsx'
 import './login.css'
@@ -12,4 +13,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     
     <Home />
   </React.StrictMode>,
+=======
+import { BrowserRouter } from 'react-router-dom'
+import MainRoutes from './route.jsx'
+import "./index.css";
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <MainRoutes/>
+  </BrowserRouter>
+>>>>>>> 5579af47cf1dcf73ca8269ed171578ef4e8649bc
 )
