@@ -1,0 +1,17 @@
+.Tela-Home{
+    z-index: 100;
+
+}
+
+.img-fluid {
+    width: 700px;
+    height: 500px;
+    padding: 20px; /* Adiciona um preenchimento interno ao redor da imagem */
+    background-color: gainsboro; /* Define a cor de fundo do quadrado */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao quadrado */
+  }
+
+.imagem-background {
+    align-items: right; /* Alinha a imagem à direita*/
+    justify-content: end;
+  }
