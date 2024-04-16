@@ -1,48 +1,36 @@
 html {
   height: 100%;
-  background: gainsboro
-}
-body {
-  min-height: 100%;
-  z-index: 1;
+  background: gainsboro;
 }
 
-  .Tela-Home{
-    width: 100%;
-  }
+.Tela-Home {
+  width: 100%;
+}
 
 .imagem-lateral {
-    width: 40%;
-    height: 50vh;
-    padding: 20px;
-    background-color: rgb(167, 174, 175);;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center; /* Alinha horizontalmente no centro */
-    align-items: center; /* Alinha verticalmente no centro */
-    flex-direction: column;
-    position: relative; /* Define a posição relativa */
-    left: 25%; /* Ajusta a posição para a direita */
-    margin: auto; /* Adiciona margem automática para centralizar horizontalmente */
-    transform: translateY(40%);
-  }
-  
+  width: 40%;
+  height: 50vh;
+  padding: 20px;
+  background-color: rgb(167, 174, 175);
+  border-radius: 10px;
+}
 
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(124, 124, 124);
-   
-    width: 100%;
-    height: 10vh;
-
-  }
-  
-.senailogo{
-  width: 15%;
-  justify-content: flex-start;
+.imagem-div{
   display: flex;
-  
+  justify-content: flex-end;
+  padding: 50px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(124, 124, 124);
+
+  width: 100%;
+  height: 80px;
+}
+
+.senailogo {
+  width: 15%;
 }

@@ -5,18 +5,13 @@
   padding: 0;
 }
 
-html {
-  height: 100%;
-  background: rgb(167, 174, 175);
+.geral{
+  width: 100%;
+  height: 100vh;
 }
 
 body {
   font-family: montserrat, arial, verdana;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 
