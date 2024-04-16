@@ -5,13 +5,7 @@
   padding: 0;
 }
 
-html {
-  height: 100%;
-  background: rgb(167, 174, 175);
-}
-
-body {
-  font-family: montserrat, arial, verdana;
+.geral{
   width: 100%;
   height: 100vh;
   display: flex;
