@@ -13,8 +13,10 @@ function Login() {
           <input type="text" name="email" placeholder="Email" />
           <input type="password" name="pass" placeholder="Senha" />
           <h4>Não tem uma conta?</h4>
-          <Link to="/cadastro" className="next action-button">Cadastre-se</Link>
-          <Link to="/home" className="next action-button">Login</Link>
+          <div className='botoes'>
+          <Link to="/cadastro" className="action-button">Cadastre-se</Link>
+          <Link to="/home" className="action-button">Login</Link>
+          </div>
         </fieldset>
       </form>
     </div>

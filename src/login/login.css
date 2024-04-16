@@ -12,14 +12,6 @@ html {
 
 body {
   font-family: montserrat, arial, verdana;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Adicionado para centralizar verticalmente */
-}
-button {
-  outline: none;
 }
 
 
@@ -31,25 +23,13 @@ button {
 	text-align: left;
 }
 
-h4{
-  text-align:start ;
-  font-size: 10px;
-}
-
-form{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 #msform {
-  width: 100%;
-
-  height: 500px;
+  width: 90%;
+  max-width: 400px;
+  margin: 50px auto;
   text-align: center;
-  
- 
-  
+  position: relative;
 }
 
 #msform fieldset {
@@ -57,9 +37,12 @@ form{
   border: 0 none;
   border-radius: 3px;
   box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
   box-sizing: border-box;
   width: calc(100% - 60px);
+  margin: 0 10%;
   position: relative;
+  
 }
 
 #msform fieldset:not(:first-of-type) {
@@ -67,7 +50,7 @@ form{
 }
 
 #msform input, #msform textarea {
-  
+  padding: 15px;
   border: 1px solid #ccc;
   border-radius: 3px;
   margin-bottom: 10px;
@@ -78,20 +61,26 @@ form{
   font-size: 13px;
 }
 
-#msform .action-button {
+.botoes {
   display: flex;
-  flex-direction:  row-reverse;
-  width: 40%;
+  justify-content: center;
+}
+
+#msform .action-button {
+  width: auto;
   background: #de0909;
   font-weight: bold;
   color: white;
   border: 0 none;
   border-radius: 1px;
   cursor: pointer;
- 
-
-  font-size: 12px;
+  padding: 10px;
+  margin: 10px 5px;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 
@@ -100,14 +89,14 @@ form{
   font-size: 15px;
   text-transform: uppercase;
   color: #2C3E50;
-
+  margin-bottom: 10px;
 }
 
 #msform .fs-subtitle {
   font-weight: normal;
   font-size: 13px;
   color: #666;
-
+  margin-bottom: 20px;
 }
 
 #progressbar {
@@ -163,18 +152,19 @@ form{
 @media only screen and (max-width: 600px) {
   #msform {
     width: 95%;
+    margin: 20px auto;
   }
 
   #msform fieldset {
-    
+    padding: 10px 20px;
   }
 
   #msform input, #msform textarea {
-    
+    padding: 10px;
   }
 
   #msform .action-button {
-    
+    padding: 5px 10px;
     font-size: 12px;
   }
 
