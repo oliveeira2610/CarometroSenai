@@ -17,7 +17,6 @@ body {
     background-color: gainsboro;
     border-radius: 10px;
     display: flex;
-    justify-content: center; /* Alinha horizontalmente no centro */
     align-items: center; /* Alinha verticalmente no centro */
     flex-direction: column;
     margin: auto; /* Adiciona margem automática para centralizar horizontalmente */
