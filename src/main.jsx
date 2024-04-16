@@ -10,5 +10,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <MainRoutes />
   </BrowserRouter>
 )
-
-
