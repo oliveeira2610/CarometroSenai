@@ -11,18 +11,15 @@ body {
   }
 
 .imagem-lateral{
-  justify-content: end;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    
     width: 40%;
     height: 50vh;
     padding: 20px; /* Adiciona um preenchimento interno ao redor da imagem */
     background-color: gainsboro; /* Define a cor de fundo do quadrado */
     border-radius: 10px; /* Adiciona bordas arredondadas ao quadrado */
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; /* Alinha o conteúdo no final do contêiner */
+    align-items: center; /* Centraliza verticalmente */
+    transform: translateY(40%);
 }
 
   header {
