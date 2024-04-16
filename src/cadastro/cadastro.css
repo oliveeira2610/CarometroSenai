@@ -12,12 +12,8 @@ html {
 
 body {
   font-family: montserrat, arial, verdana;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
+
 
 .resumo-texto {
     font-size: 18px;
@@ -27,10 +23,6 @@ body {
 	text-align: left;
 }
 
-h4{
-  text-align:start ;
-  font-size: 10px;
-}
 
 #msform {
   width: 90%;
@@ -50,6 +42,7 @@ h4{
   width: calc(100% - 60px);
   margin: 0 10%;
   position: relative;
+  
 }
 
 #msform fieldset:not(:first-of-type) {
@@ -68,6 +61,11 @@ h4{
   font-size: 13px;
 }
 
+.botoes {
+  display: flex;
+  justify-content: center;
+}
+
 #msform .action-button {
   width: auto;
   background: #de0909;
@@ -79,6 +77,10 @@ h4{
   padding: 10px;
   margin: 10px 5px;
   font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -97,34 +99,7 @@ h4{
   margin-bottom: 20px;
 }
 
-#progressbar {
-  margin-bottom: 30px;
-  overflow: hidden;
-  counter-reset: step;
-}
 
-#progressbar li {
-  list-style-type: none;
-  color: white;
-  text-transform: uppercase;
-  font-size: 9px;
-  width: 33.33%;
-  float: left;
-  position: relative;
-}
-
-#progressbar li:before {
-  content: counter(step);
-  counter-increment: step;
-  width: 20px;
-  line-height: 20px;
-  display: block;
-  font-size: 10px;
-  color: #333;
-  background: white;
-  border-radius: 3px;
-  margin: 0 auto 5px auto;
-}
 
 #progressbar li:after {
   content: '';
@@ -142,7 +117,7 @@ h4{
 }
 
 #progressbar li.active:before, #progressbar li.active:after {
-  background: #27AE60;
+  background: #de0909;
   color: white;
 }
 
