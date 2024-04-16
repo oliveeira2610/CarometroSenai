@@ -12,7 +12,6 @@ function Home() {
         </div>
       </header>
     
-    
       <img className="imagem-lateral" src="https://live.staticflickr.com/7601/16996079569_dbd29856a7_b.jpg" fluid/>
     
     

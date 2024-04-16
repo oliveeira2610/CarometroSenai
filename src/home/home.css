@@ -10,17 +10,20 @@ body {
     width: 100%;
   }
 
-.imagem-lateral{
+.imagem-lateral {
     width: 40%;
     height: 50vh;
-    padding: 20px; /* Adiciona um preenchimento interno ao redor da imagem */
-    background-color: gainsboro; /* Define a cor de fundo do quadrado */
-    border-radius: 10px; /* Adiciona bordas arredondadas ao quadrado */
+    padding: 20px;
+    background-color: gainsboro;
+    border-radius: 10px;
     display: flex;
-    justify-content: flex-end; /* Alinha o conteúdo no final do contêiner */
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Alinha horizontalmente no centro */
+    align-items: center; /* Alinha verticalmente no centro */
+    flex-direction: column;
+    margin: auto; /* Adiciona margem automática para centralizar horizontalmente */
     transform: translateY(40%);
-}
+  }
+  
 
   header {
     display: flex;
