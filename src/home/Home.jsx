@@ -4,6 +4,7 @@ import "./home.css";
 
 function Home() {
   return (
+
     <div className="Tela-Home">
       <header className="header">
         <img
@@ -12,6 +13,7 @@ function Home() {
         />
       </header>
 
+
       <div className="imagem-div">
         <img
           className="imagem-lateral"
@@ -19,8 +21,8 @@ function Home() {
           fluid
         />
       </div>
+
     </div>
   );
 }
-
 export default Home;
