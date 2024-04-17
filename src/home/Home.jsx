@@ -54,7 +54,7 @@ function Home() {
           </button>
           <div className={`dropdown-container ${dropdownOpenUsuarios ? 'show' : ''}`}>
             <a href="#">Cursos</a>
-            <a href="#">Temas</a>
+            <a href="#">Turmas</a>
           </div>
 
           <button className="dropdown-btn" onClick={toggleDropdownAluno}>Aluno 
@@ -65,14 +65,9 @@ function Home() {
             <a href="#">Anexos</a>
           </div>
 
-          <button className="dropdown-btn" onClick={toggleDropdownMatricula}>Matrícula
-            <i className={`fa fa-caret-down ${dropdownOpenMatricula ? 'active' : ''}`}></i>
-          </button>
-          <div className={`dropdown-container ${dropdownOpenMatricula ? 'show' : ''}`}>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
+          <a href="matricula">Mátricula</a>
+
+
         </div>
         <div className="imagem-div">
           <img
