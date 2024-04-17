@@ -1,13 +1,26 @@
-
-
 import React, { useState } from "react";
 import "./home.css"; // Importe os estilos CSS da página inicial
 
 function Home() {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [dropdownOpenHome, setDropdownOpenHome] = useState(false);
+  const [dropdownOpenUsuarios, setDropdownOpenUsuarios] = useState(false);
+  const [dropdownOpenAluno, setDropdownOpenAluno] = useState(false);
+  const [dropdownOpenMatricula, setDropdownOpenMatricula] = useState(false);
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
+  const toggleDropdownHome = () => {
+    setDropdownOpenHome(!dropdownOpenHome);
+  };
+
+  const toggleDropdownUsuarios = () => {
+    setDropdownOpenUsuarios(!dropdownOpenUsuarios);
+  };
+
+  const toggleDropdownAluno = () => {
+    setDropdownOpenAluno(!dropdownOpenAluno);
+  };
+
+  const toggleDropdownMatricula = () => {
+    setDropdownOpenMatricula(!dropdownOpenMatricula);
   };
 
   return (
@@ -24,35 +37,45 @@ function Home() {
             alt="Senai Logo"
           />
         </header>
-       
-        <div className={`sidenav ${dropdownOpen ? 'active' : ''}`}>
+
+        <div className="sidenav">
           <a href="#about">Home</a>
           
-          <button className="dropdown-btn" onClick={toggleDropdown}>Dropdown 
-            <i className={`fa fa-caret-down ${dropdownOpen ? 'active' : ''}`}></i>
+          <button className="dropdown-btn" onClick={toggleDropdownHome}>Dropdown 
+            <i className={`fa fa-caret-down ${dropdownOpenHome ? 'active' : ''}`}></i>
           </button>
-          <div className={`dropdown-container ${dropdownOpen ? 'show' : ''}`}>
+          <div className={`dropdown-container ${dropdownOpenHome ? 'show' : ''}`}>
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
           </div>
 
-          <button className="dropdown-btn" onClick={toggleDropdown}>Dropdown 
-            <i className={`fa fa-caret-down ${dropdownOpen ? 'active' : ''}`}></i>
+          <button className="dropdown-btn" onClick={toggleDropdownUsuarios}>Dropdown 
+            <i className={`fa fa-caret-down ${dropdownOpenUsuarios ? 'active' : ''}`}></i>
           </button>
-          <div className={`dropdown-container ${dropdownOpen ? 'show' : ''}`}>
+          <div className={`dropdown-container ${dropdownOpenUsuarios ? 'show' : ''}`}>
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
           </div>
 
+          <button className="dropdown-btn" onClick={toggleDropdownAluno}>Dropdown 
+            <i className={`fa fa-caret-down ${dropdownOpenAluno ? 'active' : ''}`}></i>
+          </button>
+          <div className={`dropdown-container ${dropdownOpenAluno ? 'show' : ''}`}>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
 
-        
-        
-        
-        
-          
-
+          <button className="dropdown-btn" onClick={toggleDropdownMatricula}>Dropdown 
+            <i className={`fa fa-caret-down ${dropdownOpenMatricula ? 'active' : ''}`}></i>
+          </button>
+          <div className={`dropdown-container ${dropdownOpenMatricula ? 'show' : ''}`}>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </div>
         <div className="imagem-div">
           <img
