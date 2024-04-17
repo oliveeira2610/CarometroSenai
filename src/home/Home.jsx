@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useState } from "react";
 import "./home.css"; // Importe os estilos CSS da página inicial
 
@@ -51,5 +51,3 @@ function Home() {
 }
 
 export default Home;
-=======
->>>>>>> a0b709649b63afd499e524cc1022022db5d023ad
