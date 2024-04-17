@@ -23,11 +23,10 @@ function Home() {
             alt="Senai Logo"
           />
         </header>
+       
         <div className={`sidenav ${dropdownOpen ? 'active' : ''}`}>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#clients">Clients</a>
-          <a href="#contact">Contact</a>
+          <a href="#about">Home</a>
+          
           <button className="dropdown-btn" onClick={toggleDropdown}>Dropdown 
             <i className={`fa fa-caret-down ${dropdownOpen ? 'active' : ''}`}></i>
           </button>
@@ -36,7 +35,14 @@ function Home() {
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
           </div>
-          <a href="#contact">Search</a>
+
+
+        
+        
+        
+        
+          
+
         </div>
         <div className="imagem-div">
           <img
