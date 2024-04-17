@@ -39,36 +39,33 @@ function Home() {
         </header>
 
         <div className="sidenav">
-          <a href="#about">Home</a>
+          <a href="#about"></a>
           
-          <button className="dropdown-btn" onClick={toggleDropdownHome}>Dropdown 
+          <button className="dropdown-btn" onClick={toggleDropdownHome}>Home
             <i className={`fa fa-caret-down ${dropdownOpenHome ? 'active' : ''}`}></i>
           </button>
           <div className={`dropdown-container ${dropdownOpenHome ? 'show' : ''}`}>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <a href="#">Tirar Foto</a>
+            <a href="#">Consultas</a>
           </div>
 
-          <button className="dropdown-btn" onClick={toggleDropdownUsuarios}>Dropdown 
+          <button className="dropdown-btn" onClick={toggleDropdownUsuarios}>Usuários
             <i className={`fa fa-caret-down ${dropdownOpenUsuarios ? 'active' : ''}`}></i>
           </button>
           <div className={`dropdown-container ${dropdownOpenUsuarios ? 'show' : ''}`}>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <a href="#">Cursos</a>
+            <a href="#">Temas</a>
           </div>
 
-          <button className="dropdown-btn" onClick={toggleDropdownAluno}>Dropdown 
+          <button className="dropdown-btn" onClick={toggleDropdownAluno}>Aluno 
             <i className={`fa fa-caret-down ${dropdownOpenAluno ? 'active' : ''}`}></i>
           </button>
           <div className={`dropdown-container ${dropdownOpenAluno ? 'show' : ''}`}>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <a href="#">Ocorrências</a>
+            <a href="#">Anexos</a>
           </div>
 
-          <button className="dropdown-btn" onClick={toggleDropdownMatricula}>Dropdown 
+          <button className="dropdown-btn" onClick={toggleDropdownMatricula}>Matrícula
             <i className={`fa fa-caret-down ${dropdownOpenMatricula ? 'active' : ''}`}></i>
           </button>
           <div className={`dropdown-container ${dropdownOpenMatricula ? 'show' : ''}`}>
