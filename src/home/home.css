@@ -59,7 +59,7 @@ header {
   cursor: pointer;
   outline: none;
   display: flex;
-  justify-content: left;
+  justify-content: right;
   align-items: center;
 }
 
