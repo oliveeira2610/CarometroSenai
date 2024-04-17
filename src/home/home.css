@@ -61,6 +61,9 @@ header {
   text-align: left;
   cursor: pointer;
   outline: none;
+  display: flex;
+  justify-content: left;
+  
 }
 
 /* On mouse-over */
@@ -94,3 +97,5 @@ header {
   float: right;
   padding-right: 8px;
 }
+
+
