@@ -28,15 +28,13 @@ function Home() {
           <a href="#services">Services</a>
           <a href="#clients">Clients</a>
           <a href="#contact">Contact</a>
-          <button className="dropdown-btn" onClick={toggleDropdown}>Dropdown 
+          <button className="dropdown-btn" onClick={toggleDropdown}>Home
             <i className={`fa fa-caret-down ${dropdownOpen ? 'active' : ''}`}></i>
           </button>
           <div className={`dropdown-container ${dropdownOpen ? 'show' : ''}`}>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+            <a href="#">Tirar Foto</a>
+            <a href="#">Consultas</a>
           </div>
-          <a href="#contact">Search</a>
         </div>
         <div className="imagem-div">
           <img
