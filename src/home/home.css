@@ -41,11 +41,7 @@ header {
   width: 200px;
   position: fixed;
   z-index: 1;
-  top: 0;
-  left: 0;
 
-  overflow-x: hidden;
-  padding-top: 20px;
 }
 
 /* Style the sidenav links and the dropdown button */
@@ -55,7 +51,7 @@ header {
   text-decoration: none;
   font-size: 20px;
   color: #818181;
-  display: block;
+  display: flex;
   border: none;
   background: none;
   width: 100%;
@@ -64,6 +60,7 @@ header {
   outline: none;
   display: flex;
   justify-content: left;
+  align-items: center;
 }
 
 /* On mouse-over */
