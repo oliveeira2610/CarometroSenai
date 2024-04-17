@@ -36,6 +36,15 @@ function Home() {
             <a href="#">Link 3</a>
           </div>
 
+          <button className="dropdown-btn" onClick={toggleDropdown}>Dropdown 
+            <i className={`fa fa-caret-down ${dropdownOpen ? 'active' : ''}`}></i>
+          </button>
+          <div className={`dropdown-container ${dropdownOpen ? 'show' : ''}`}>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+
 
         
         
