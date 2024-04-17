@@ -15,10 +15,11 @@ html {
   border-radius: 10px;
 }
 
-.imagem-div {
+.conteudo {
   display: flex;
-  justify-content: flex-end;
+  justify-content:space-between;
   padding: 80px;
+  
 }
 
 header {
@@ -38,10 +39,12 @@ header {
 .sidenav {
   height: 100%;
   width: 200px;
-  position: fixed;
-  z-index: 1;
+  display: block;
+  justify-content: space-between;
+  flex-direction: row;
 
 }
+
 
 /* Style the sidenav links and the dropdown button */
 .sidenav a,
@@ -58,7 +61,7 @@ header {
   cursor: pointer;
   outline: none;
   display: flex;
-  justify-content: right;
+  justify-content: left;
   align-items: center;
 }
 
