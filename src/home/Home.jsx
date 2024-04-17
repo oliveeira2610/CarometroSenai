@@ -40,6 +40,9 @@ function Home() {
           <button class="dropdown-btn">
             Dropdown
             <i class="fa fa-caret-down"></i>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
           </button>
           <div class="dropdown-container">
             <a href="#">Link 1</a>
