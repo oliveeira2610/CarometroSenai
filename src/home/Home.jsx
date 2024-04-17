@@ -19,15 +19,19 @@ function Home() {
   }
 
   return (
-    <div className="Tela-Home">
-      <header className="header">
-        <img
-          className="senailogo"
-          src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
-        />
-      </header>
+    <>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      ></link>
+      <div className="Tela-Home">
+        <header className="header">
+          <img
+            className="senailogo"
+            src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
+          />
+        </header>
 
-      <div className="sidebar">
         <div class="sidenav">
           <a href="#about">About</a>
           <a href="#services">Services</a>
@@ -44,16 +48,18 @@ function Home() {
           </div>
           <a href="#contact">Search</a>
         </div>
-      </div>
 
-      <div className="imagem-div">
-        <img
-          className="imagem-lateral"
-          src="https://live.staticflickr.com/7601/16996079569_dbd29856a7_b.jpg"
-          fluid
-        />
+      
+
+        <div className="imagem-div">
+          <img
+            className="imagem-lateral"
+            src="https://live.staticflickr.com/7601/16996079569_dbd29856a7_b.jpg"
+            fluid
+          />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 export default Home;
