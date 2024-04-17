@@ -2,7 +2,7 @@ import "./login.css";
 import { Link } from "react-router-dom";
 function Login() {
   return (
-    <div className="geral">
+    <div className="geral-login">
       <div>
         <form id="msform">
           <fieldset>
