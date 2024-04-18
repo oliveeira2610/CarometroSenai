@@ -1,0 +1,13 @@
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #333; /* Cor de fundo da barra de navegação */
+  }
+  
+  /* Estilos para os links na barra de navegação */
+  .navbar-nav .nav-link {
+    color: white; /* Cor do texto dos links */
+  }
+  
+  .senailogo {
+    width: 15%;
+  }
