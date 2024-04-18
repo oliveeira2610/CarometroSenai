@@ -33,15 +33,13 @@ function Home() {
 
       <div className="TelHomea-">
         <header className="header">
-          <img
-            className="senailogo"
+          <img className="senailogo"
             src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
             alt="Senai Logo"
           />
         </header>
 
         <div className="conteudo">
-
           <div className="sidenav">
             <a href="#about"></a>
 
@@ -56,7 +54,9 @@ function Home() {
             <div
               className={`dropdown-container ${dropdownOpenHome ? "show" : ""}`}
             >
-              <Link to="/tirarfoto" className="action-button">&nbsp;&nbsp;Tirar fotos</Link>
+              <Link to="/tirarfoto" className="action-button">
+                &nbsp;&nbsp;Tirar fotos
+              </Link>
               <a href="#">&nbsp;&nbsp;Consultas</a>
             </div>
 
@@ -97,14 +97,11 @@ function Home() {
             <a href="matricula">Mátricula</a>
           </div>
 
-
           <img
             className="imagem-lateral"
             src="https://live.staticflickr.com/7601/16996079569_dbd29856a7_b.jpg"
             alt="Imagem Lateral"
           />
-
-
         </div>
       </div>
     </>

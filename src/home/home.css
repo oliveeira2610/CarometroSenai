@@ -13,7 +13,7 @@ html {
   height: 60vh;
   padding: 20px;
   background-color: rgb(167, 174, 175);
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -40,34 +40,33 @@ header {
 }
 
 .sidenav {
-  width: 200px;
+  width: 160px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  
-
   background-color: rgb(124, 124, 124);
- 
+  border-radius: 20px;
+  padding: 3%;
+  
 }
 
 
 /* Style the sidenav links and the dropdown button */
 .sidenav a{
   
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(246, 247, 247);
-    display: flex;
-    border: none;
-    background: none;
-    width: 100%;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(246, 247, 247);
+  display: flex;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: left;
+  align-items: start;
   
 }
 .dropdown-btn {
@@ -83,8 +82,7 @@ header {
   cursor: pointer;
   outline: none;
   display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
 
 /* On mouse-over */
