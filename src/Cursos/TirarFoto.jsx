@@ -4,22 +4,20 @@ import Nav from 'react-bootstrap/Nav';
 function TirarFoto() {
   return (
     <Nav
-      activeKey="/TirarFoto"
+      activeKey="/Home"
       onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
     >
       <Nav.Item>
-        <Nav.Link href="/home">Active</Nav.Link>
+        <Nav.Link href="/Home">Home</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-1">Link</Nav.Link>
+        <Nav.Link eventKey="link">Usuários</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="link-2">Link</Nav.Link>
+        <Nav.Link eventKey="link">Aluno</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link eventKey="disabled" disabled>
-          Disabled
-        </Nav.Link>
+      <Nav.Link eventKey="Link">Matrícula</Nav.Link>
       </Nav.Item>
     </Nav>
   );
