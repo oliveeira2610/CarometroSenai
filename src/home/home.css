@@ -14,11 +14,13 @@ html {
   padding: 20px;
   background-color: rgb(167, 174, 175);
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .conteudo {
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
   padding: 80px;
   
 }
@@ -40,10 +42,12 @@ header {
 .sidenav {
   height: 100%;
   width: 200px;
-  display: block;
-  justify-content: space-between;
-  flex-direction: row;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  padding: 50px;
+ 
 }
 
 
