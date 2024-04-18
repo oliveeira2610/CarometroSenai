@@ -3,6 +3,9 @@ import "./home.css"; // Importe os estilos CSS da página inicial
 import { Link } from "react-router-dom";
 
 function Home() {
+
+  <h1>Senai Shunji Nishimura</h1>
+  
   const [dropdownOpenHome, setDropdownOpenHome] = useState(false);
   const [dropdownOpenUsuarios, setDropdownOpenUsuarios] = useState(false);
   const [dropdownOpenAluno, setDropdownOpenAluno] = useState(false);
@@ -37,6 +40,9 @@ function Home() {
             src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
             alt="Senai Logo"
           />
+
+        <h1 className="header-h1">Senai Shunji Nishimura</h1>
+
         </header>
 
         <div className="conteudo">
