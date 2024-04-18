@@ -2,6 +2,15 @@ import "/.tirarfoto.css";
 import Nav from 'react-bootstrap/Nav';
 
 function TirarFoto() {
+    
+    <>
+          <img
+            className="senailogo"
+            src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
+            alt="Senai Logo"
+          />
+    </>
+
   return (
     <Nav
       activeKey="/Home"
