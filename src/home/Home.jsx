@@ -55,8 +55,8 @@ function Home() {
             <div
               className={`dropdown-container ${dropdownOpenHome ? "show" : ""}`}
             >
-              <a href="#">Tirar Foto</a>
-              <a href="#">Consultas</a>
+              <a href="#">&nbsp;&nbsp;Tirar Foto</a>
+              <a href="#">&nbsp;&nbsp;Consultas</a>
             </div>
 
             <button className="dropdown-btn" onClick={toggleDropdownUsuarios}>
@@ -72,8 +72,8 @@ function Home() {
                 dropdownOpenUsuarios ? "show" : ""
               }`}
             >
-              <a href="#">Cursos</a>
-              <a href="#">Turmas</a>
+              <a href="#">&nbsp;&nbsp;Cursos</a>
+              <a href="#">&nbsp;&nbsp;Turmas</a>
             </div>
 
             <button className="dropdown-btn" onClick={toggleDropdownAluno}>
@@ -89,8 +89,8 @@ function Home() {
                 dropdownOpenAluno ? "show" : ""
               }`}
             >
-              <a href="#">Ocorrências</a>
-              <a href="#">Anexos</a>
+              <a href="#">&nbsp;&nbsp;Ocorrências</a>
+              <a href="#">&nbsp;&nbsp;Anexos</a>
             </div>
 
             <a href="matricula">Mátricula</a>
