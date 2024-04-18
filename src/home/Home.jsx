@@ -34,7 +34,7 @@ function Home() {
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       ></link>
 
-      <div className="TelHomea-">
+      <div className="Tela-home">
         <header className="header">
           <img className="senailogo"
             src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
@@ -103,11 +103,7 @@ function Home() {
             <a href="matricula">Mátricula</a>
           </div>
               
-          <img
-            className="imagem-lateral"
-            src="https://live.staticflickr.com/7601/16996079569_dbd29856a7_b.jpg"
-            alt="Imagem Lateral"
-          />
+          
         </div>
       </div>
     </>

@@ -4,14 +4,42 @@
     left: 0;
   }
 
-  .nav-item{
-    display: inline-block ;
-    cursor: pointer;
-    text-decoration: none;
-  }
 
-  .nav-link {
-    margin-right: 20px;
-    color: aliceblue;
-  }
+
   
+
+.navbarbutton{
+  text-decoration: none;
+  display: inline-block ;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 20px;
+  color: aliceblue;
+}
+
+.geral-tirarfoto{
+  width: 100%;
+  height: 89vh;
+  display: flex;
+  justify-content:center;
+  padding: 80px;
+}
+
+
+.imagem-camera {
+  width: 302px;
+  height: 308px;
+
+  display: flex;
+  
+}
+
+.imagem-foto{
+  display: flex;
+  width: 402px;
+  height: 408px;
+  margin-top: -40px;
+
+
+
+}
