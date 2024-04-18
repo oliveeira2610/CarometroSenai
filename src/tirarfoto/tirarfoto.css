@@ -1,13 +1,17 @@
-/* Estilos para a barra de navegação */
-.navbar {
-    background-color: #333; /* Cor de fundo da barra de navegação */
-  }
-  
-  /* Estilos para os links na barra de navegação */
-  .navbar-nav .nav-link {
-    color: white; /* Cor do texto dos links */
-  }
-  
-  .senailogo {
+ .senailogo {
     width: 15%;
+    position: absolute;
+    left: 0;
   }
+
+  .nav-item{
+    display: inline-block ;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .nav-link {
+    margin-right: 20px;
+    color: aliceblue;
+  }
+  
