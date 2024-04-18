@@ -1,4 +1,4 @@
-import "/.tirarfoto.css";
+import "./tirarfoto.css";
 import Nav from 'react-bootstrap/Nav';
 
 function TirarFoto() {

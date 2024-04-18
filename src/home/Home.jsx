@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./home.css"; // Importe os estilos CSS da página inicial
+import { Link } from "react-router-dom";
 
 function Home() {
   const [dropdownOpenHome, setDropdownOpenHome] = useState(false);
@@ -55,7 +56,7 @@ function Home() {
             <div
               className={`dropdown-container ${dropdownOpenHome ? "show" : ""}`}
             >
-              <a href="#">&nbsp;&nbsp;Tirar Foto</a>
+              <Link to="/tirarfoto" className="action-button">&nbsp;&nbsp;Tirar fotos</Link>
               <a href="#">&nbsp;&nbsp;Consultas</a>
             </div>
 
