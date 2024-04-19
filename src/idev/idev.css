@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 .idev-h1 {
     text-align: center;
     color: rgb(124, 124, 124);
     font-family: 'Ubuntu', sans-serif;
     margin-top: 6%;
   }
+
+.geral-turmas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.card-body{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+

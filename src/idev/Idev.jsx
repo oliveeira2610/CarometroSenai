@@ -1,10 +1,14 @@
 import "./idev.css";
 import { Link } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+
 
 function Idev() {
 
     return (
       <>
+
         <header>
           <img
             className="senailogo"
@@ -31,6 +35,50 @@ function Idev() {
 
         <div className="geral-idev">
             <h1 className="idev-h1">Técnico em Desenvolvimento de Sistemas</h1>
+        </div>
+
+        <div className="geral-turmas">
+
+        <div className="idev1">
+            <Card style={{ width: '14rem' }}>
+        <Card.Img variant="top" src="https://moodle.ifrs.edu.br/pluginfile.php/901302/course/overviewfiles/Icones%20moodle-77.png" width={300} />
+        <Card.Body>
+            <Card.Title>Idev 1</Card.Title>
+            <Card.Text>
+                Técnico de Desenvolvimento de Sistemas Integrado ao Ensino Médio do ano de 2022
+        </Card.Text>
+        
+      </Card.Body>  
+    </Card>
+        </div>
+        
+
+        <div className="idev2">
+        <Card style={{ width: '16rem' }}>
+        <Card.Img variant="top" src="https://moodle.ifrs.edu.br/pluginfile.php/901302/course/overviewfiles/Icones%20moodle-77.png" width={300}/>
+        <Card.Body>
+            <Card.Title>Idev 2</Card.Title>
+            <Card.Text>
+                Técnico de Desenvolvimento de Sistemas Integrado ao Ensino Médio do ano de 2023
+        </Card.Text>
+        
+      </Card.Body>  
+    </Card>
+        </div>
+        
+        <div className="idev3">
+        <Card style={{ width: '14rem' }}>
+        <Card.Img variant="top" src="https://moodle.ifrs.edu.br/pluginfile.php/901302/course/overviewfiles/Icones%20moodle-77.png" width={300} />
+        <Card.Body>
+            <Card.Title>Idev 3</Card.Title>
+            <Card.Text>
+                Técnico de Desenvolvimento de Sistemas Integrado ao Ensino Médio do ano de 2024
+        </Card.Text>
+        
+      </Card.Body>  
+    </Card>
+        </div>
+
         </div>
   
       </>
