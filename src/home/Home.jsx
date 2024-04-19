@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
 
-  <h1>Senai Shunji Nishimura</h1>
+
   
   const [dropdownOpenHome, setDropdownOpenHome] = useState(false);
   const [dropdownOpenUsuarios, setDropdownOpenUsuarios] = useState(false);
@@ -51,7 +51,7 @@ function Home() {
 {/* ////////////////////////////////home///////////////////////////////////////////// */}
 
             <Link to="/home" className="botaohome">
-                &nbsp;&nbsp;Home
+                Home
               </Link>
 
 {/* /////////////////////////////////usuários//////////////////////////////////////////// */}
@@ -93,7 +93,7 @@ function Home() {
               }`}
             >
                <Link to="/idev" className="action-button">
-                &nbsp;&nbsp;Desenvolvimento de Sistemas
+                &nbsp;&nbsp;Desenvolvimento &nbsp;&nbsp;de Sistemas
               </Link>
               <Link to="/" className="action-button">
                 &nbsp;&nbsp;Eletroeletrônica
