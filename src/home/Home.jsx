@@ -50,7 +50,7 @@ function Home() {
             <a href="#about"></a>
 {/* ////////////////////////////////home///////////////////////////////////////////// */}
 
-            <Link to="/home" className="action-button">
+            <Link to="/home" className="botaohome">
                 &nbsp;&nbsp;Home
               </Link>
 
