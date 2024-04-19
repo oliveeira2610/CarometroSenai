@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Home = Botão
 
 Usuários = Slidebar
@@ -18,3 +19,5 @@ Aluno
 Dentro de Aluno:
 Ocorrências
 Anexos
+=======
+>>>>>>> 49ab3231f864df1eabd7141c454fcc34f3bb7723
