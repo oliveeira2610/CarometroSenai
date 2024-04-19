@@ -1,7 +1,8 @@
 import "./idev.css";
 import { Link } from "react-router-dom";
 
-function TirarFoto() {
+function Idev() {
+
     return (
       <>
         <header>
@@ -27,28 +28,14 @@ function TirarFoto() {
   
           </div>
         </header>
-  
-  
-        <div className="geral-tirarfoto">
-  
-  
-        <img
-              className="imagem-camera"
-              src="https://cdn-icons-png.flaticon.com/512/685/685655.png"
-              alt="Imagem camera
-              "
-            />
-          
-          <img
-              className="imagem-foto"
-              src="https://pixsector.com/cache/517d8be6/av5c8336583e291842624.png"
-              alt="Imagem foto"
-            />
-  
+
+        <div className="geral-idev">
+            <h1 className="idev-h1">Técnico em Desenvolvimento de Sistemas</h1>
         </div>
+  
       </>
     );
   }
   
-  export default TirarFoto;
+  export default Idev;
   
