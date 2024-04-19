@@ -63,7 +63,9 @@ function Home() {
               <Link to="/tirarfoto" className="action-button">
                 &nbsp;&nbsp;Tirar fotos
               </Link>
-              <a href="#">&nbsp;&nbsp;Consultas</a>
+              <Link to="/consultas" className="action-button">
+                &nbsp;&nbsp;Consultas
+              </Link>
             </div>
 
             <button className="dropdown-btn" onClick={toggleDropdownUsuarios}>
