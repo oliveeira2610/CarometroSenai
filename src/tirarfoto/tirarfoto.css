@@ -19,7 +19,7 @@
 
 .geral-tirarfoto{
   width: 100%;
-  height: 89vh;
+  height: 100%;
   display: flex;
   justify-content:center;
   padding: 80px;
