@@ -92,7 +92,7 @@ function Home() {
                 dropdownOpenAluno ? "show" : ""
               }`}
             >
-               <Link to="/" className="action-button">
+               <Link to="/idev" className="action-button">
                 &nbsp;&nbsp;Desenvolvimento de Sistemas
               </Link>
               <Link to="/" className="action-button">

@@ -4,6 +4,7 @@ import Cadastro from "./cadastro/Cadastro.jsx";
 import Home from "./home/Home.jsx"
 import Tirarfoto from "./tirarfoto/TirarFoto.jsx"
 import Consultas from "./consultas/Consultas.jsx"
+import Idev from "./idev/Idev.jsx"
 
 function MainRoutes(){
     return(
@@ -13,6 +14,7 @@ function MainRoutes(){
             <Route path="/home" element={<Home/>}/> 
             <Route path="/tirarfoto" element={<Tirarfoto/>}/>
             <Route path="/consultas" element={<Consultas/>}/>
+            <Route path="/idev" element={<Idev/>}/>
         </Routes>
     )
 }
