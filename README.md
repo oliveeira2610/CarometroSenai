@@ -1,2 +1,20 @@
-https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp
-iiiii
+Home = Botão
+
+Usuários = Slidebar
+Tirar Foto
+Consultas
+
+Cursos = Slidebar
+Desenvolvimento de Sistemas
+Eletroeletrônica
+Mecânica
+
+Dentro de cada curso:
+Turmas
+
+Dentro de Turmas:
+Aluno
+
+Dentro de Aluno:
+Ocorrências
+Anexos
