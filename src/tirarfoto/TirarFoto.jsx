@@ -1,46 +1,55 @@
 import "./tirarfoto.css";
-import Nav from 'react-bootstrap/Nav';
+import { Link } from "react-router-dom";
 
 function TirarFoto() {
-
   return (
-<>
-    <header>
+    <>
+      <header>
+        <img
+          className="senailogo"
+          src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
+          alt="Senai Logo"
+        />
 
-    
-          <img
-            className="senailogo"
-            src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
-            alt="Senai Logo"
+        <div className="navbartop">
+        <Link to="/home" className="navbarbutton">
+              Home
+        </Link>
+        
+        <Link to="/tirarfoto" className="navbarbutton">
+              Usuários
+        </Link>
+
+        <Link to="/tirarfoto" className="navbarbutton">
+              Alunos
+        </Link>
+
+        <Link to="/tirarfoto" className="navbarbutton">
+              Mátricula
+        </Link>
+
+
+        </div>
+      </header>
+
+
+      <div className="geral-tirarfoto">
+
+
+      <img
+            className="imagem-camera"
+            src="https://cdn-icons-png.flaticon.com/512/685/685655.png"
+            alt="Imagem camera
+            "
           />
-   
-    <div className="navbartop">
-      <Nav
-      activeKey="/Home"
-      onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-    >
-      <Nav.Item>
-        <Nav.Link className="navbarbutton" href="/Home">Home</Nav.Link>
-        ,
+        
+        <img
+            className="imagem-foto"
+            src="https://pixsector.com/cache/517d8be6/av5c8336583e291842624.png"
+            alt="Imagem foto"
+          />
 
-
-
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="link">Usuários</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="link">Aluno</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-      <Nav.Link eventKey="Link">Matrícula</Nav.Link>
-      </Nav.Item>
-    </Nav>
-    </div>
-    
-    </header>
-
-
+      </div>
     </>
   );
 }
