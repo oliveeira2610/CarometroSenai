@@ -48,25 +48,13 @@ function Home() {
         <div className="conteudo">
           <div className="sidenav">
             <a href="#about"></a>
+{/* ////////////////////////////////home///////////////////////////////////////////// */}
 
-            <button className="dropdown-btn" onClick={toggleDropdownHome}>
-              Home
-              <i
-                className={`fa fa-caret-down ${
-                  dropdownOpenHome ? "active" : ""
-                }`}
-              ></i>
-            </button>
-            <div
-              className={`dropdown-container ${dropdownOpenHome ? "show" : ""}`}
-            >
-              <Link to="/tirarfoto" className="action-button">
-                &nbsp;&nbsp;Tirar fotos
+            <Link to="/home" className="action-button">
+                &nbsp;&nbsp;Home
               </Link>
-              <Link to="/consultas" className="action-button">
-                &nbsp;&nbsp;Consultas
-              </Link>
-            </div>
+
+{/* /////////////////////////////////usuários//////////////////////////////////////////// */}
 
             <button className="dropdown-btn" onClick={toggleDropdownUsuarios}>
               Usuários
@@ -81,12 +69,18 @@ function Home() {
                 dropdownOpenUsuarios ? "show" : ""
               }`}
             >
-              <a href="#">&nbsp;&nbsp;Cursos</a>
-              <a href="#">&nbsp;&nbsp;Turmas</a>
+              <Link to="/tirarfoto" className="action-button">
+                &nbsp;&nbsp;Tirar fotos
+              </Link>
+              <Link to="/consultas" className="action-button">
+                &nbsp;&nbsp;Consultas
+              </Link>
             </div>
 
+{/* /////////////////////////////////cursos//////////////////////////////////////////// */}
+
             <button className="dropdown-btn" onClick={toggleDropdownAluno}>
-              Aluno
+              Cursos
               <i
                 className={`fa fa-caret-down ${
                   dropdownOpenAluno ? "active" : ""
@@ -98,11 +92,19 @@ function Home() {
                 dropdownOpenAluno ? "show" : ""
               }`}
             >
-              <a href="#">&nbsp;&nbsp;Ocorrências</a>
-              <a href="#">&nbsp;&nbsp;Anexos</a>
+               <Link to="/" className="action-button">
+                &nbsp;&nbsp;Desenvolvimento de Sistemas
+              </Link>
+              <Link to="/" className="action-button">
+                &nbsp;&nbsp;Eletroeletrônica
+              </Link>
+              <Link to="/" className="action-button">
+                &nbsp;&nbsp;Mecânica
+              </Link>
             </div>
 
-            <a href="matricula">Mátricula</a>
+{/* //////////////////////////////imagem lateral//////////////////////////////////////////// */}
+
           </div>
           <img
             className="imagem-lateral"
