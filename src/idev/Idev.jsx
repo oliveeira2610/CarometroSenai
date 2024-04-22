@@ -7,6 +7,7 @@ function Idev() {
   return (
     <>
       <header>
+        
         <img
           className="senailogo"
           src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
@@ -28,52 +29,9 @@ function Idev() {
         </div>
       </header>
 
-      {/* <div className="geral-idev">
+      <div className="titulo">
             <h1 className="idev-h1">Técnico em Desenvolvimento de Sistemas</h1>
         </div>
-
-        <div className="geral-turmas">
-          
-        <div className="cards-idev">
-            <Card style={{ width: '14rem' }}>
-        <Card.Img variant="top" src="src/assets/idev1.jpg" width={300} />
-        <Card.Body>
-            <Card.Title>Idev 1</Card.Title>
-            <Card.Text>
-                Técnico de Desenvolvimento de Sistemas Integrado ao Ensino Médio do ano de 2022
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>  
-    </Card>
-        </div>
-        
-
-        <div className="cards-idev">
-        <Card style={{ width: '16rem' }}>
-        <Card.Img variant="top" src="src/assets/idev2.jpg" width={300}/>
-        <Card.Body>
-            <Card.Title>Idev 2</Card.Title>
-            <Card.Text>
-                Técnico de Desenvolvimento de Sistemas Integrado ao Ensino Médio do ano de 2023
-        </Card.Text>
-        
-      </Card.Body>  
-    </Card>
-        </div>
-        
-        <div className="cards-idev">
-        <Card style={{ width: '14rem' }}>
-        <Card.Img variant="top" src="src/assets/aleatorio.jpg" width={300} />
-        <Card.Body>
-            <Card.Title>Idev 3</Card.Title>
-            <Card.Text>
-                Técnico de Desenvolvimento de Sistemas Integrado ao Ensino Médio do ano de 2024
-        </Card.Text>
-        
-      </Card.Body>  
-    </Card>
-        </div> 
-        </div>*/}
 
       <div class="cards-list">
         <div class="card 1">
@@ -81,8 +39,7 @@ function Idev() {
             <img src="src/assets/idev1.jpg" />
           </div>
           <div class="card_title title-white">
-            <p>IDEV1</p>
-            <p>Técnico de Desenvolvimento de Sistemas Integrado ao Ensino Médio do ano de 2023</p>
+            <p>IDEV1 - 2022</p> 
           </div>
         </div>
 
@@ -91,16 +48,16 @@ function Idev() {
           <img src="src/assets/idev2.jpg" />
         </div>
         <div class="card_title title-white">
-          <p>Card Title</p>
+          <p>IDEV2 - 2023</p>
         </div>
       </div>
       
       <div class="card 3">
         <div class="card_image">
-          <img src="src/assets/aleatorio.jpg" />
+          <img src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
         <div class="card_title title-white">
-          <p>Card Title</p>
+          <p>IDEV3 - 2024</p>
         </div>
       </div>
 

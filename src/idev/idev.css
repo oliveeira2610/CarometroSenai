@@ -5,42 +5,8 @@
     color: rgb(124, 124, 124);
     font-family: 'Ubuntu', sans-serif;
     margin-top: 6%;
+    height: 80px;
   }
-
-/* .geral-turmas{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 7%;
-}
-
-.card-body{
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.cards-idev{
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.card{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-  
-}
-
-
-.card-img-top{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-}
- */
-
 
 
  .cards-list {
@@ -82,6 +48,9 @@
     font-size: 30px;
     margin-top: -80px;
     height: 40px;
+    margin-bottom: -140px;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(136, 138, 139);
   }
   
   .card:hover {
@@ -104,6 +73,3 @@
       flex-direction: column;
     }
   }
-  
-  
-
