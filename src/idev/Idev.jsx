@@ -47,7 +47,7 @@ function Idev() {
             <Card.Text>
                 Técnico de Desenvolvimento de Sistemas Integrado ao Ensino Médio do ano de 2022
         </Card.Text>
-        
+        <Button variant="primary">Go somewhere</Button>
       </Card.Body>  
     </Card>
         </div>
