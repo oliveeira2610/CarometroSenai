@@ -95,10 +95,10 @@ function Home() {
                <Link to="/idev" className="action-button">
                 &nbsp;&nbsp;Desenvolvimento &nbsp;&nbsp;de Sistemas
               </Link>
-              <Link to="/" className="action-button">
+              <Link to="/iele" className="action-button">
                 &nbsp;&nbsp;Eletroeletrônica
               </Link>
-              <Link to="/" className="action-button">
+              <Link to="/imec" className="action-button">
                 &nbsp;&nbsp;Mecânica
               </Link>
             </div>

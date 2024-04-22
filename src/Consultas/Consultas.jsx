@@ -21,11 +21,7 @@ function Consultas() {
         </Link>
 
         <Link to="/tirarfoto" className="navbarbutton">
-              Alunos
-        </Link>
-
-        <Link to="/tirarfoto" className="navbarbutton">
-              Mátricula
+             Cursos
         </Link>
 
 
