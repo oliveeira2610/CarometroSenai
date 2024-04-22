@@ -7,6 +7,8 @@ import Consultas from "./consultas/Consultas.jsx"
 import Idev from "./idev/Idev.jsx"
 import Iele from "./iele/Iele.jsx"
 import Imec from "./imec/Imec.jsx"
+import Cursos from "./cursos/Cursos.jsx"
+
 
 function MainRoutes(){
     return(
@@ -16,6 +18,7 @@ function MainRoutes(){
             <Route path="/home" element={<Home/>}/> 
             <Route path="/tirarfoto" element={<Tirarfoto/>}/>
             <Route path="/consultas" element={<Consultas/>}/>
+            <Route path="/cursos" element={<Cursos/>}/>
             <Route path="/idev" element={<Idev/>}/>
             <Route path="/iele" element={<Iele/>}/>
             <Route path="/imec" element={<Imec/>}/>

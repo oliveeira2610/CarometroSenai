@@ -16,16 +16,18 @@ function Imec() {
           <Link to="/home" className="navbarbutton">
             Home
           </Link>
-
-          <Link to="/tirarfoto" className="navbarbutton">
-            Usuários
+          
+          <Link to="/" className="navbarbutton">
+                Usuários
           </Link>
-
-          <Link to="/tirarfoto" className="navbarbutton">
-            Cursos
+  
+          <Link to="/cursos" className="navbarbutton">
+                Cursos
           </Link>
-        </div>
-      </header>
+  
+  
+          </div>
+        </header>
 
       <div className="titulo">
             <h1 className="idev-h1">Técnico em Mecânica</h1>
