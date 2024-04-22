@@ -1,7 +1,5 @@
 import "./idev.css";
 import { Link } from "react-router-dom";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 
 function Idev() {
   return (
@@ -19,11 +17,11 @@ function Idev() {
             Home
           </Link>
 
-          <Link to="/tirarfoto" className="navbarbutton">
+          <Link to="/" className="navbarbutton">
             Usuários
           </Link>
 
-          <Link to="/tirarfoto" className="navbarbutton">
+          <Link to="/cursos" className="navbarbutton">
             Cursos
           </Link>
         </div>

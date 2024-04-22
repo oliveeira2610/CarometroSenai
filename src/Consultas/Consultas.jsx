@@ -16,11 +16,11 @@ function Consultas() {
               Home
         </Link>
         
-        <Link to="/tirarfoto" className="navbarbutton">
+        <Link to="/" className="navbarbutton">
               Usuários
         </Link>
 
-        <Link to="/tirarfoto" className="navbarbutton">
+        <Link to="/cursos" className="navbarbutton">
              Cursos
         </Link>
 
