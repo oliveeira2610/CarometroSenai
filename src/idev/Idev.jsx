@@ -41,7 +41,7 @@ function Idev() {
           
         <div className="cards-idev">
             <Card style={{ width: '14rem' }}>
-        <Card.Img variant="top" src="https://moodle.ifrs.edu.br/pluginfile.php/901302/course/overviewfiles/Icones%20moodle-77.png" width={300} />
+        <Card.Img variant="top" src="src/assets/idev1.jpg" width={300} />
         <Card.Body>
             <Card.Title>Idev 1</Card.Title>
             <Card.Text>
@@ -55,7 +55,7 @@ function Idev() {
 
         <div className="cards-idev">
         <Card style={{ width: '16rem' }}>
-        <Card.Img variant="top" src="https://moodle.ifrs.edu.br/pluginfile.php/901302/course/overviewfiles/Icones%20moodle-77.png" width={300}/>
+        <Card.Img variant="top" src="src/assets/idev2.jpg" width={300}/>
         <Card.Body>
             <Card.Title>Idev 2</Card.Title>
             <Card.Text>
@@ -68,7 +68,7 @@ function Idev() {
         
         <div className="cards-idev">
         <Card style={{ width: '14rem' }}>
-        <Card.Img variant="top" src="https://moodle.ifrs.edu.br/pluginfile.php/901302/course/overviewfiles/Icones%20moodle-77.png" width={300} />
+        <Card.Img variant="top" src="src/assets/aleatorio.jpg" width={300} />
         <Card.Body>
             <Card.Title>Idev 3</Card.Title>
             <Card.Text>
