@@ -19,4 +19,24 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+.cards-idev{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.card-img-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
 

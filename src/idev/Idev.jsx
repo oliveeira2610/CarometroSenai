@@ -38,8 +38,8 @@ function Idev() {
         </div>
 
         <div className="geral-turmas">
-
-        <div className="idev1">
+          
+        <div className="cards-idev">
             <Card style={{ width: '14rem' }}>
         <Card.Img variant="top" src="https://moodle.ifrs.edu.br/pluginfile.php/901302/course/overviewfiles/Icones%20moodle-77.png" width={300} />
         <Card.Body>
@@ -53,7 +53,7 @@ function Idev() {
         </div>
         
 
-        <div className="idev2">
+        <div className="cards-idev">
         <Card style={{ width: '16rem' }}>
         <Card.Img variant="top" src="https://moodle.ifrs.edu.br/pluginfile.php/901302/course/overviewfiles/Icones%20moodle-77.png" width={300}/>
         <Card.Body>
@@ -66,7 +66,7 @@ function Idev() {
     </Card>
         </div>
         
-        <div className="idev3">
+        <div className="cards-idev">
         <Card style={{ width: '14rem' }}>
         <Card.Img variant="top" src="https://moodle.ifrs.edu.br/pluginfile.php/901302/course/overviewfiles/Icones%20moodle-77.png" width={300} />
         <Card.Body>
