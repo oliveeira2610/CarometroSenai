@@ -2,59 +2,6 @@ import React, { useState } from "react";
 import "./cadastro.css";
 import { Link } from "react-router-dom";
 function Cadastro() {
-  const [step, setStep] = useState(1);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    pass: "",
-    cpass: "",
-    cep: "",
-    rua: "",
-    bairro: "",
-    cidade: "",
-    estado: "",
-    numero: "",
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-
-    if (name === "cep") {
-      fetch(`https://viacep.com.br/ws/${value}/json/`)
-        .then((response) => response.json())
-        .then((data) => {
-          if (!data.erro) {
-            setFormData((prevState) => ({
-              ...prevState,
-              rua: data.logradouro,
-              bairro: data.bairro,
-              cidade: data.localidade,
-              estado: data.uf,
-            }));
-          }
-        })
-        .catch((error) => console.error("Erro ao buscar CEP:", error));
-    }
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Aqui você pode enviar os dados do formulário para onde quiser
-    console.log(formData);
-  };
-
-  const nextStep = () => {
-    setStep(step + 1);
-  };
-
-  const prevStep = () => {
-    setStep(step - 1);
-  };
-
-  const { name, email, pass, cpass, cep, rua, bairro, cidade, estado, numero } =
-    formData;
-
   return (
     <div className="geral-cadast">
       <form id="msform" onSubmit={handleSubmit}>
