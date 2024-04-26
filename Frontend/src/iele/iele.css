@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+
 .idev-h1 {
-    text-align: center;
-    color: rgb(124, 124, 124);
-    font-family: 'Ubuntu', sans-serif;
-    margin-top: 6%;
-    height: 80px;
-  }
+  text-align: center;
+  color: rgb(124, 124, 124);
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 6%;
+  height: 80px;
+}
 
 
  .cards-list {
@@ -46,7 +47,7 @@
     font-family: sans-serif;
     font-weight: bold;
     font-size: 30px;
-    margin-top: -80px;
+ 
     height: 40px;
     margin-bottom: -140px;
     font-family: 'Ubuntu', sans-serif;
@@ -73,3 +74,4 @@
       flex-direction: column;
     }
   }
+
