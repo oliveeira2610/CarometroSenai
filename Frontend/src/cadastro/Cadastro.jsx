@@ -2,6 +2,71 @@ import React, { useState } from "react";
 import "./cadastro.css";
 import { Link } from "react-router-dom";
 function Cadastro() {
+  const [step, setStep] = useState(1);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [pass, setPass] = useState("");
+  const [cpass, setCpass] = useState("");
+  const [cep, setCep] = useState("");
+  const [rua, setRua] = useState("");
+  const [bairro, setBairro] = useState("");
+  const [cidade, setCidade] = useState("");
+  const [estado, setEstado] = useState("");
+  const [numero, setNumero] = useState("");
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    switch (name) {
+      case "name":
+        setName(value);
+        break;
+      case "email":
+        setEmail(value);
+        break;
+      case "pass":
+        setPass(value);
+        break;
+      case "cpass":
+        setCpass(value);
+        break;
+      case "cep":
+        setCep(value);
+        break;
+      case "rua":
+        setRua(value);
+        break;
+      case "bairro":
+        setBairro(value);
+        break;
+      case "cidade":
+        setCidade(value);
+        break;
+      case "estado":
+        setEstado(value);
+        break;
+      case "numero":
+        setNumero(value);
+        break;
+      default:
+        break;
+    }
+  };
+
+  const nextStep = () => {
+    setStep(step + 1);
+  };
+
+  const prevStep = () => {
+    setStep(step - 1);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Aqui você pode adicionar a lógica para enviar os dados do formulário
+  };
+
+
+
   return (
     <div className="geral-cadast">
       <form id="msform" onSubmit={handleSubmit}>
@@ -159,6 +224,17 @@ function Cadastro() {
           </fieldset>
         )}
       </form>
+      <div className="waveWrapper waveAnimation">
+          <div className="waveWrapperInner bgTop">
+            <div className="wave waveTop" style={{ backgroundImage: "url('http://front-end-noobs.com/jecko/img/wave-top.png')" }}></div>
+          </div>
+          <div className="waveWrapperInner bgMiddle">
+            <div className="wave waveMiddle" style={{ backgroundImage: "url('http://front-end-noobs.com/jecko/img/wave-mid.png')" }}></div>
+          </div>
+          <div className="waveWrapperInner bgBottom">
+            <div className="wave waveBottom" style={{ backgroundImage: "url('http://front-end-noobs.com/jecko/img/wave-bot.png')" }}></div>
+          </div>
+        </div>
     </div>
   );
 }
