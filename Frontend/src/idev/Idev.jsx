@@ -33,36 +33,36 @@ function Idev() {
 
       <div class="cards-list">
       <div className="card 1">
-      <Link to="/cursos">
-        <div className="card_image_Idev">
+      <Link to="/cursos" className="botão-card-idev">
+        <div className="card_image_Idev" >
           <img className="card_image_Idev" src="src/assets/idev1.jpg" alt="IDEV1" />
         </div>
+      </Link>
         <div className="card_title title-white">
           <p>IDEV1 - 2022</p>
         </div>
-      </Link>
     </div>
 
       <div class="card 2">
-      <Link to="/cursos">
+      <Link to="/cursos" className="botão-card">
         <div class="card_image_Idev">
           <img className="card_image_Idev"   src="src/assets/idev2.jpg" />
         </div>
-        <div class="card_title title-white">
-          <p>IDEV2 - 2023</p>
-        </div>
       </Link>
+      <div class="card_title title-white">
+          <p>IDEV2 - 2023</p>
+      </div>
       </div>
       
       <div class="card 3">
-      <Link to="/cursos">
+      <Link to="/cursos" className="botão-card" >
         <div className="card_image_Idev">
           <img className="card_image_Idev" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
+      </Link>
         <div class="card_title title-white">
           <p>IDEV3 - 2024</p>
         </div>
-        </Link>
       </div>
 
 

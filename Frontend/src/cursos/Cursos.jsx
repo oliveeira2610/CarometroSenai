@@ -30,34 +30,40 @@ function Cursos() {
       </header>
 
       <div className="titulo">
-            <h1 className="Cursos-h1">Técnico em Desenvolvimento de Sistemas</h1>
+            <h1 className="idev-h1">Técnico em Desenvolvimento de Sistemas</h1>
         </div>
 
-      <div class="cards-list">
-        <div class="card 1">
-          <div class="card_image">
-            <img src="src/assets/Cursos1.jpg" />
-          </div>
-          <div class="card_title title-white">
-            <p>Cursos1 - 2022</p> 
-          </div>
+        <div class="cards-list">
+      <div className="card 1">
+      <Link to="/cursos" className="botão-card-idev">
+        <div className="card_image_Idev" >
+          <img className="card_image_Idev" src="src/assets/idev1.jpg" alt="IDEV1" />
         </div>
+      </Link>
+        <div className="card_title title-white">
+          <p>IDEV</p>
+        </div>
+    </div>
 
       <div class="card 2">
-        <div class="card_image">
-          <img src="src/assets/Cursos2.jpg" />
+      <Link to="/cursos" className="botão-card">
+        <div class="card_image_Idev">
+          <img className="card_image_Idev"   src="src/assets/idev2.jpg" />
         </div>
-        <div class="card_title title-white">
-          <p>Cursos2 - 2023</p>
-        </div>
+      </Link>
+      <div class="card_title title-white">
+          <p>Eletro Eletronica</p>
+      </div>
       </div>
       
       <div class="card 3">
-        <div class="card_image">
-          <img src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
+      <Link to="/cursos" className="botão-card" >
+        <div className="card_image_Idev">
+          <img className="card_image_Idev" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
+      </Link>
         <div class="card_title title-white">
-          <p>Cursos3 - 2024</p>
+          <p>Mecanica</p>
         </div>
       </div>
 

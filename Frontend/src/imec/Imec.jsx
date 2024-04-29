@@ -35,12 +35,14 @@ function Imec() {
 
       <div class="cards-list">
         <div class="card 1">
+        <Link to="/cursos" className="navbarbutton">
           <div class="card_image">
             <img src="src/assets/ielemec1.png" />
           </div>
           <div class="card_title title-white">
             <p>IMEC1 - 2022</p> 
           </div>
+          </Link>
         </div>
 
       <div class="card 2">
