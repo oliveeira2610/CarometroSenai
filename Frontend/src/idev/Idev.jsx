@@ -32,31 +32,37 @@ function Idev() {
         </div>
 
       <div class="cards-list">
-        <div class="card 1">
-          <div class="card_image">
-            <img src="src/assets/idev1.jpg" />
-          </div>
-          <div class="card_title title-white">
-            <p>IDEV1 - 2022</p> 
-          </div>
+      <div className="card 1">
+      <Link to="/cursos">
+        <div className="card_image_Idev">
+          <img className="card_image_Idev" src="src/assets/idev1.jpg" alt="IDEV1" />
         </div>
+        <div className="card_title title-white">
+          <p>IDEV1 - 2022</p>
+        </div>
+      </Link>
+    </div>
 
       <div class="card 2">
-        <div class="card_image">
-          <img src="src/assets/idev2.jpg" />
+      <Link to="/cursos">
+        <div class="card_image_Idev">
+          <img className="card_image_Idev"   src="src/assets/idev2.jpg" />
         </div>
         <div class="card_title title-white">
           <p>IDEV2 - 2023</p>
         </div>
+      </Link>
       </div>
       
       <div class="card 3">
-        <div class="card_image">
-          <img src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
+      <Link to="/cursos">
+        <div className="card_image_Idev">
+          <img className="card_image_Idev" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
         <div class="card_title title-white">
           <p>IDEV3 - 2024</p>
         </div>
+        </Link>
       </div>
 
 
