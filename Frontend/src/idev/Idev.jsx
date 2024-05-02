@@ -6,11 +6,10 @@ function Idev() {
     <>
       <header>
         
-        <img
-          className="senailogo"
-          src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
-          alt="Senai Logo"
-        />
+      <img className="senailogo"
+            src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
+            alt="Senai Logo"
+          />
 
         <div className="navbartop">
           <Link to="/home" className="navbarbutton">
@@ -28,14 +27,14 @@ function Idev() {
       </header>
 
       <div className="titulo">
-            <h1 className="idev-h1">Técnico em Desenvolvimento de Sistemas</h1>
+            <h1 className="Cards-h1">Técnico em Desenvolvimento de Sistemas</h1>
         </div>
 
       <div class="cards-list">
       <div className="card 1">
       <Link to="/cursos" className="botão-card-idev">
-        <div className="card_image_Idev" >
-          <img className="card_image_Idev" src="src/assets/idev1.jpg" alt="IDEV1" />
+        <div className="card_image_card" >
+          <img className="card_image_card" src="src/assets/idev1.jpg" alt="IDEV1" />
         </div>
       </Link>
         <div className="card_title title-white">
@@ -45,8 +44,8 @@ function Idev() {
 
       <div class="card 2">
       <Link to="/cursos" className="botão-card">
-        <div class="card_image_Idev">
-          <img className="card_image_Idev"   src="src/assets/idev2.jpg" />
+        <div className="card_image_card">
+          <img className="card_image_card"   src="src/assets/idev2.jpg" />
         </div>
       </Link>
       <div class="card_title title-white">
@@ -56,8 +55,8 @@ function Idev() {
       
       <div class="card 3">
       <Link to="/cursos" className="botão-card" >
-        <div className="card_image_Idev">
-          <img className="card_image_Idev" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
+        <div className="card_image_card">
+          <img className="card_image_card" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
       </Link>
         <div class="card_title title-white">

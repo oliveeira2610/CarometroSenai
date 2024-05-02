@@ -8,11 +8,10 @@ function Cursos() {
     <>
       <header>
         
-        <img
-          className="senailogo"
-          src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
-          alt="Senai Logo"
-        />
+      <img className="senailogo"
+            src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
+            alt="Senai Logo"
+          />
 
         <div className="navbartop">
           <Link to="/home" className="navbarbutton">

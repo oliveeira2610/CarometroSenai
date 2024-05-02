@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Home() {
 
 
-  
+
   const [dropdownOpenHome, setDropdownOpenHome] = useState(false);
   const [dropdownOpenUsuarios, setDropdownOpenUsuarios] = useState(false);
   const [dropdownOpenAluno, setDropdownOpenAluno] = useState(false);
@@ -27,6 +27,8 @@ function Home() {
     setDropdownOpenMatricula(!dropdownOpenMatricula);
   };
 
+
+
   return (
     <>
       <link
@@ -36,38 +38,39 @@ function Home() {
 
       <div className="Tela-home">
         <header className="header">
-          <img className="senailogo"
+        <img className="senailogo"
             src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
             alt="Senai Logo"
           />
 
-        <h1 className="header-h1">Senai Shunji Nishimura</h1>
+          <h1 className="header-h1">Senai Shunji Nishimura</h1>
 
         </header>
 
+
+
         <div className="conteudo">
+
           <div className="sidenav">
             <a href="#about"></a>
-{/* ////////////////////////////////home///////////////////////////////////////////// */}
+            {/* ////////////////////////////////home///////////////////////////////////////////// */}
 
             <Link to="/home" className="botaohome">
-                Home
-              </Link>
+              Home
+            </Link>
 
-{/* /////////////////////////////////usuários//////////////////////////////////////////// */}
+            {/* /////////////////////////////////usuários//////////////////////////////////////////// */}
 
             <button className="dropdown-btn" onClick={toggleDropdownUsuarios}>
               Usuários
               <i
-                className={`fa fa-caret-down ${
-                  dropdownOpenUsuarios ? "active" : ""
-                }`}
+                className={`fa fa-caret-down ${dropdownOpenUsuarios ? "active" : ""
+                  }`}
               ></i>
             </button>
             <div
-              className={`dropdown-container ${
-                dropdownOpenUsuarios ? "show" : ""
-              }`}
+              className={`dropdown-container ${dropdownOpenUsuarios ? "show" : ""
+                }`}
             >
               <Link to="/tirarfoto" className="action-button">
                 &nbsp;&nbsp;Tirar fotos
@@ -77,22 +80,20 @@ function Home() {
               </Link>
             </div>
 
-{/* /////////////////////////////////cursos//////////////////////////////////////////// */}
+            {/* /////////////////////////////////cursos//////////////////////////////////////////// */}
 
             <button className="dropdown-btn" onClick={toggleDropdownAluno}>
               Cursos
               <i
-                className={`fa fa-caret-down ${
-                  dropdownOpenAluno ? "active" : ""
-                }`}
+                className={`fa fa-caret-down ${dropdownOpenAluno ? "active" : ""
+                  }`}
               ></i>
             </button>
             <div
-              className={`dropdown-container ${
-                dropdownOpenAluno ? "show" : ""
-              }`}
+              className={`dropdown-container ${dropdownOpenAluno ? "show" : ""
+                }`}
             >
-               <Link to="/idev" className="action-button">
+              <Link to="/idev" className="action-button">
                 &nbsp;&nbsp;Desenvolvimento &nbsp;&nbsp;de Sistemas
               </Link>
               <Link to="/iele" className="action-button">
@@ -103,7 +104,7 @@ function Home() {
               </Link>
             </div>
 
-{/* //////////////////////////////imagem lateral//////////////////////////////////////////// */}
+            {/* //////////////////////////////imagem lateral//////////////////////////////////////////// */}
 
           </div>
           <img
@@ -111,9 +112,20 @@ function Home() {
             src="https://live.staticflickr.com/7601/16996079569_dbd29856a7_b.jpg"
             alt="Imagem Lateral"
           />
-          
+
         </div>
+
+
+
+
+
+
+
       </div>
+
+
+
+
     </>
   );
 }

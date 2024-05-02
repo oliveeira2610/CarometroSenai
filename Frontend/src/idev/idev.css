@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 
-.idev-h1 {
+.Cards-h1 {
   text-align: center;
   color: rgb(124, 124, 124);
   font-family: 'Ubuntu', sans-serif;
@@ -39,7 +39,7 @@
     border-radius: 40px;
   }
   
-  .card .card_image_Idev {
+  .card .card_image_card {
     width: 300px;
     height: 355px;
     border-radius: 40px;
