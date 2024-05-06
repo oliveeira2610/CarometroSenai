@@ -22,7 +22,7 @@ function Cursos() {
             Usuários
           </Link>
 
-          <Link to="/tirarfoto" className="navbarbutton">
+          <Link to="/" className="navbarbutton">
             Cursos
           </Link>
         </div>
