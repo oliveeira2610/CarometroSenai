@@ -32,6 +32,7 @@ function Idev() {
 
       <div class="cards-list">
       <div className="card 1">
+
       <Link to="/carometroidev1" className="botão-card-idev">
         <div className="card_image_card" >
           <img className="card_image_card" src="src/assets/idev1.jpg" alt="IDEV1" />
@@ -43,7 +44,7 @@ function Idev() {
     </div>
 
       <div class="card 2">
-      <Link to="/cursos" className="botão-card">
+      <Link to="/" className="botão-card">
         <div className="card_image_card">
           <img className="card_image_card"   src="src/assets/idev2.jpg" />
         </div>
@@ -54,7 +55,7 @@ function Idev() {
       </div>
       
       <div class="card 3">
-      <Link to="/cursos" className="botão-card" >
+      <Link to="/" className="botão-card" >
         <div className="card_image_card">
           <img className="card_image_card" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>

@@ -35,27 +35,33 @@ function Iele() {
 
       <div class="cards-list">
         <div class="card 1">
+        <Link to="/" className="botão-card">
           <div className="card_image_card">
             <img className="card_image_card" src="src/assets/ielemec1.png" />
           </div>
+          </Link>
           <div class="card_title title-white">
             <p>IELE1 - 2022</p> 
           </div>
         </div>
 
       <div class="card 2">
+      <Link to="/" className="botão-card">
         <div className="card_image_card">
           <img className="card_image_card" src="src/assets/ielemec2.png" />
         </div>
+        </Link>
         <div class="card_title title-white">
           <p>IELE2 - 2023</p>
         </div>
       </div>
       
       <div class="card 3">
+      <Link to="/" className="botão-card">
         <div className="card_image_card">
           <img className="card_image_card" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
+      </Link>
         <div class="card_title title-white">
           <p>IELE3 - 2024</p>
         </div>
