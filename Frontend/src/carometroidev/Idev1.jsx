@@ -35,7 +35,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Alexandre Magalhães Deboletta</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Camilly Bianca de Moraes Reis</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -63,7 +63,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Carolina Romano Teixeira</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -77,7 +77,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Claudete Carmo Machado</p>
+            <p>Aluno</p>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Alexandre Magalhães Deboletta</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -104,10 +104,10 @@ function Idev1() {
               <div className="overlay">
                 <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
               </div>
-            </div>
+            </div> 
           </Link>
           <div className="card_title title-white">
-            <p>Camilly Bianca de Moraes Reis</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -121,7 +121,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Carolina Romano Teixeira</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -135,7 +135,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Claudete Carmo Machado</p>
+            <p>Aluno</p>
           </div>
         </div>
     </div>
@@ -152,7 +152,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Alexandre Magalhães Deboletta</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -166,7 +166,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Camilly Bianca de Moraes Reis</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -180,7 +180,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Carolina Romano Teixeira</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -194,7 +194,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Claudete Carmo Machado</p>
+            <p>Aluno</p>
           </div>
         </div>
     </div>
@@ -211,7 +211,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Alexandre Magalhães Deboletta</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -225,7 +225,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Camilly Bianca de Moraes Reis</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -239,7 +239,7 @@ function Idev1() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Carolina Romano Teixeira</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -254,18 +254,251 @@ function Idev1() {
           </Link>
           
           <div className="card_title title-white">
-            <p>Claudete Carmo Machado</p>
+            <p>Aluno</p>
+          </div>
+        </div>
+        </div>
+
+
+        <div className="cards-list-5">
+        <div className="card card-17">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-18">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-19">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-20">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+        </div>
+
+
+        <div className="cards-list-6">
+        <div className="card card-21">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-22">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-23">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-24">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+        </div>
+
+
+        <div className="cards-list-7">
+        <div className="card card-25">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-26">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-27">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-28">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+        </div>
+
+
+        <div className="cards-list-8">
+        <div className="card card-29">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-30">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-31">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Aluno</p>
+          </div>
+        </div>
+
+        <div className="card card-32">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          
+          <div className="card_title title-white">
+            <p>Aluno</p>
           </div>
         </div>
         </div>
     </div>
-    
-
-
-
-
-
-     
     </>
   );
 }

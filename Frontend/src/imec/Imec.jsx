@@ -34,7 +34,7 @@ function Imec() {
 
       <div class="cards-list">
         <div class="card 1">
-        <Link to="/" className="botão-card">
+        <Link to="/carometroimec1" className="botão-card">
           <div className="card_image_card">
             <img className="card_image_card" src="src/assets/ielemec1.png" />
           </div>
@@ -45,7 +45,7 @@ function Imec() {
         </div>
 
       <div class="card 2">
-      <Link to="/" className="botão-card">
+      <Link to="/carometroimec2" className="botão-card">
         <div className="card_image_card">
           <img className="card_image_card" src="src/assets/ielemec2.png" />
         </div>
@@ -56,7 +56,7 @@ function Imec() {
       </div>
       
       <div class="card 3">
-      <Link to="/" className="botão-card">
+      <Link to="/carometroimec3" className="botão-card">
         <div className="card_image_card">
           <img className="card_image_card" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>

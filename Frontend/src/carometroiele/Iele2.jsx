@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import "./carometroidev.css";
+import "./carometroiele.css";
 
-function Idev2() {
+function Iele2() {
   return (
     <>
       <header>
@@ -35,7 +35,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Alexandre Magalhães Deboletta</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Camilly Bianca de Moraes Reis</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -63,7 +63,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Carolina Romano Teixeira</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -77,7 +77,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Claudete Carmo Machado</p>
+            <p>Aluno</p>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Eduarda Rodrigues Monteiro</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -107,7 +107,7 @@ function Idev2() {
             </div> 
           </Link>
           <div className="card_title title-white">
-            <p>Enzo Rafael Domingues Bussi</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -121,7 +121,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Felipe Loncarovich Dos Santos</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -135,7 +135,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Gabriel De Oliveira Rodrigues</p>
+            <p>Aluno</p>
           </div>
         </div>
     </div>
@@ -152,7 +152,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Gabriel de Souza Neto Pires</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -166,7 +166,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Gabrielle de Lima Quinquio</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -180,7 +180,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Giovani Canella de Souza</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -194,7 +194,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Guilherme de Souza Trevisan</p>
+            <p>Aluno</p>
           </div>
         </div>
     </div>
@@ -211,7 +211,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Guilherme Ferraresi Dallacqua</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -225,7 +225,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Henrique Bussi Dos Santos</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -239,7 +239,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Henry Gabriel Rodrigues Barbosa</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -254,7 +254,7 @@ function Idev2() {
           </Link>
           
           <div className="card_title title-white">
-            <p>Isabela Cunha Manzano</p>
+            <p>Aluno</p>
           </div>
         </div>
         </div>
@@ -271,7 +271,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Usuário não Encontrado</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -285,7 +285,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Juan Miguel Mauro Rodrigues</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -299,7 +299,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Jhuan Medeiros Cordeiro</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -314,7 +314,7 @@ function Idev2() {
           </Link>
           
           <div className="card_title title-white">
-            <p>Kauan Duarte Flauzino</p>
+            <p>Aluno</p>
           </div>
         </div>
         </div>
@@ -331,7 +331,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Lucas Dias Letzel</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -345,7 +345,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Lucas Martins Alves</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -359,7 +359,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Lucas Zanello Manzano</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -374,7 +374,7 @@ function Idev2() {
           </Link>
           
           <div className="card_title title-white">
-            <p>Manuela Mattos Sotrate</p>
+            <p>Aluno</p>
           </div>
         </div>
         </div>
@@ -391,7 +391,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Mateus Silverio de Oliveira</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -405,7 +405,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Matheus Rodolpho de Almeida</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -419,7 +419,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Pedro Gabriel Ribeiro Lima</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -434,7 +434,7 @@ function Idev2() {
           </Link>
           
           <div className="card_title title-white">
-            <p>Pedro Henrique Magalhaes Dos Santos</p>
+            <p>Aluno</p>
           </div>
         </div>
         </div>
@@ -451,7 +451,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Tomás Heizo Domingues Yamakawa</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -465,7 +465,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Vitória Muniz de Souza</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -479,7 +479,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Vinicius Sulpicio</p>
+            <p>Aluno</p>
           </div>
         </div>
 
@@ -494,14 +494,13 @@ function Idev2() {
           </Link>
           
           <div className="card_title title-white">
-            <p>Yasmim Moreno Caveriani</p>
+            <p>Aluno</p>
           </div>
         </div>
         </div>
     </div>
-    
     </>
   );
 }
 
-export default Idev2;
+export default Iele2;
