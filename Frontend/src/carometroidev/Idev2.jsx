@@ -6,10 +6,12 @@ function Idev2() {
       <>
         <header>
           
+        <Link to="/home" className="link-senai-logo">
         <img className="senailogo"
-              src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
-              alt="Senai Logo"
-            />
+            src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
+            alt="Senai Logo"
+          />
+          </Link>
   
           <div className="navbartop">
             <Link to="/home" className="navbarbutton">

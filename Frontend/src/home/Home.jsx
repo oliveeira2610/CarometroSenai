@@ -38,10 +38,13 @@ function Home() {
 
       <div className="Tela-home">
         <header className="header">
+
+        <Link to="/home" className="link-senai-logo">
         <img className="senailogo"
             src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
             alt="Senai Logo"
           />
+          </Link>
 
           <h1 className="header-h1">Senai Shunji Nishimura</h1>
 

@@ -8,10 +8,12 @@ function Cursos() {
     <>
       <header>
         
-      <img className="senailogo"
+      <Link to="/home" className="link-senai-logo">
+        <img className="senailogo"
             src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
             alt="Senai Logo"
           />
+          </Link>
 
         <div className="navbartop">
           <Link to="/home" className="navbarbutton">
@@ -34,7 +36,7 @@ function Cursos() {
 
       <div class="cards-list">
       <div className="card 1">
-      <Link to="/cursos" className="botão-card-idev">
+      <Link to="/idev" className="botão-card-idev">
         <div className="card_image_Idev" >
           <img className="card_image_Idev" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
@@ -45,7 +47,7 @@ function Cursos() {
     </div>
 
       <div class="card 2">
-      <Link to="/cursos" className="botão-card">
+      <Link to="/iele" className="botão-card">
         <div class="card_image_Idev">
           <img className="card_image_Idev" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
@@ -56,7 +58,7 @@ function Cursos() {
       </div>
       
       <div class="card 3">
-      <Link to="/cursos" className="botão-card" >
+      <Link to="/imec" className="botão-card" >
         <div className="card_image_Idev">
           <img className="card_image_Idev" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
