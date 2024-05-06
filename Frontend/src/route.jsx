@@ -9,6 +9,8 @@ import Iele from "./iele/Iele.jsx";
 import Imec from "./imec/Imec.jsx";
 import Cursos from "./cursos/Cursos.jsx";
 import Carometroidev1 from "./carometroidev/Idev1.jsx";
+import Carometroidev2 from "./carometroidev/Idev2.jsx";
+import Carometroidev3 from "./carometroidev/Idev3.jsx";
 
 function MainRoutes(){
     return(
@@ -23,6 +25,8 @@ function MainRoutes(){
             <Route path="/iele" element={<Iele/>}/>
             <Route path="/imec" element={<Imec/>}/>
             <Route path="/carometroidev1" element={<Carometroidev1/>}/>
+            <Route path="/carometroidev2" element={<Carometroidev2/>}/>
+            <Route path="/carometroidev3" element={<Carometroidev3/>}/>
         </Routes>
     )
 }
