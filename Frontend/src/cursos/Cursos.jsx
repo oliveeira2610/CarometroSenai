@@ -22,21 +22,21 @@ function Cursos() {
             Usuários
           </Link>
 
-          <Link to="/tirarfoto" className="navbarbutton">
+          <Link to="/" className="navbarbutton">
             Cursos
           </Link>
         </div>
       </header>
 
       <div className="titulo">
-            <h1 className="idev-h1">Técnico em Desenvolvimento de Sistemas</h1>
+            <h1 className="Cards-h1">Cursos Técnicos</h1>
         </div>
 
-        <div class="cards-list">
+      <div class="cards-list">
       <div className="card 1">
       <Link to="/cursos" className="botão-card-idev">
         <div className="card_image_Idev" >
-          <img className="card_image_Idev" src="src/assets/idev1.jpg" alt="IDEV1" />
+          <img className="card_image_Idev" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
       </Link>
         <div className="card_title title-white">
@@ -47,7 +47,7 @@ function Cursos() {
       <div class="card 2">
       <Link to="/cursos" className="botão-card">
         <div class="card_image_Idev">
-          <img className="card_image_Idev"   src="src/assets/idev2.jpg" />
+          <img className="card_image_Idev" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
       </Link>
       <div class="card_title title-white">
@@ -62,7 +62,7 @@ function Cursos() {
         </div>
       </Link>
         <div class="card_title title-white">
-          <p>Mecanica</p>
+          <p>Mecânica</p>
         </div>
       </div>
 
