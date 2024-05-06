@@ -80,6 +80,8 @@ function Idev1() {
             <p>Claudete Carmo Machado</p>
           </div>
         </div>
+      </div>
+
      <div className="cards-list-2">
         <div className="card card-5">
           <Link to="/" className="botao-card">
@@ -139,8 +141,8 @@ function Idev1() {
     </div>
 
 
-    <div className="cards-list-2">
-        <div className="card card-5">
+    <div className="cards-list-3">
+        <div className="card card-9">
           <Link to="/" className="botao-card">
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
@@ -154,7 +156,7 @@ function Idev1() {
           </div>
         </div>
 
-        <div className="card card-6">
+        <div className="card card-10">
           <Link to="/" className="botao-card">
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
@@ -168,7 +170,7 @@ function Idev1() {
           </div>
         </div>
 
-        <div className="card card-7">
+        <div className="card card-11">
           <Link to="/" className="botao-card">
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
@@ -182,7 +184,7 @@ function Idev1() {
           </div>
         </div>
 
-        <div className="card card-8">
+        <div className="card card-12">
           <Link to="/" className="botao-card">
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
@@ -198,8 +200,8 @@ function Idev1() {
     </div>
 
 
-    <div className="cards-list-2">
-        <div className="card card-5">
+  <div className="cards-list-4">
+        <div className="card card-13">
           <Link to="/" className="botao-card">
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
@@ -213,7 +215,7 @@ function Idev1() {
           </div>
         </div>
 
-        <div className="card card-6">
+        <div className="card card-14">
           <Link to="/" className="botao-card">
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
@@ -227,7 +229,7 @@ function Idev1() {
           </div>
         </div>
 
-        <div className="card card-7">
+        <div className="card card-15">
           <Link to="/" className="botao-card">
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
@@ -241,7 +243,7 @@ function Idev1() {
           </div>
         </div>
 
-        <div className="card card-8">
+        <div className="card card-16">
           <Link to="/" className="botao-card">
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
@@ -263,7 +265,7 @@ function Idev1() {
 
 
 
-      </div>
+     
     </>
   );
 }
