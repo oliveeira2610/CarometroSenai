@@ -51,7 +51,7 @@ function Cursos() {
         </div>
       </Link>
       <div class="card_title title-white">
-          <p>Eletro Eletronica</p>
+          <p>Eletroeletrônica</p>
       </div>
       </div>
       

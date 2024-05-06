@@ -32,7 +32,7 @@ function Idev() {
 
       <div class="cards-list">
       <div className="card 1">
-      <Link to="/cursos" className="botão-card-idev">
+      <Link to="/carometroidev1" className="botão-card-idev">
         <div className="card_image_card" >
           <img className="card_image_card" src="src/assets/idev1.jpg" alt="IDEV1" />
         </div>
