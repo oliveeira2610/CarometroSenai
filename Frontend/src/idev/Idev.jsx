@@ -44,7 +44,7 @@ function Idev() {
     </div>
 
       <div class="card 2">
-      <Link to="/" className="botão-card">
+      <Link to="/carometroidev2" className="botão-card">
         <div className="card_image_card">
           <img className="card_image_card"   src="src/assets/idev2.jpg" />
         </div>
@@ -55,7 +55,7 @@ function Idev() {
       </div>
       
       <div class="card 3">
-      <Link to="/" className="botão-card" >
+      <Link to="/carometroidev3" className="botão-card" >
         <div className="card_image_card">
           <img className="card_image_card" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
         </div>
