@@ -22,19 +22,20 @@ function Idev1() {
           </Link>
         </div>
       </header>
-      
-      <div className="cards-list">
+      <div class="container">
+        
+      <div className="cards-list-1">
         <div className="card card-1">
           <Link to="/" className="botao-card">
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
               <div className="overlay">
-                <div className="text">Nome: João<br/>Telefone: (11) 99999-9999<br/>CPF: 123.456.789-00</div>
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
               </div>
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Alexandre</p>
+            <p>Alexandre Magalhães Deboletta</p>
           </div>
         </div>
 
@@ -43,12 +44,12 @@ function Idev1() {
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
               <div className="overlay">
-                <div className="text">Nome: João<br/>Telefone: (11) 99999-9999<br/>CPF: 123.456.789-00</div>
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
               </div>
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Alexandre</p>
+            <p>Camilly Bianca de Moraes Reis</p>
           </div>
         </div>
 
@@ -57,12 +58,12 @@ function Idev1() {
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
               <div className="overlay">
-                <div className="text">Nome: João<br/>Telefone: (11) 99999-9999<br/>CPF: 123.456.789-00</div>
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
               </div>
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Alexandre</p>
+            <p>Carolina Romano Teixeira</p>
           </div>
         </div>
 
@@ -71,14 +72,197 @@ function Idev1() {
             <div className="card_image_card">
               <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
               <div className="overlay">
-                <div className="text">Nome: João<br/>Telefone: (11) 99999-9999<br/>CPF: 123.456.789-00</div>
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
               </div>
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Alexandre</p>
+            <p>Claudete Carmo Machado</p>
           </div>
         </div>
+     <div className="cards-list-2">
+        <div className="card card-5">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Alexandre Magalhães Deboletta</p>
+          </div>
+        </div>
+
+        <div className="card card-6">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Camilly Bianca de Moraes Reis</p>
+          </div>
+        </div>
+
+        <div className="card card-7">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Carolina Romano Teixeira</p>
+          </div>
+        </div>
+
+        <div className="card card-8">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Claudete Carmo Machado</p>
+          </div>
+        </div>
+    </div>
+
+
+    <div className="cards-list-2">
+        <div className="card card-5">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Alexandre Magalhães Deboletta</p>
+          </div>
+        </div>
+
+        <div className="card card-6">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Camilly Bianca de Moraes Reis</p>
+          </div>
+        </div>
+
+        <div className="card card-7">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Carolina Romano Teixeira</p>
+          </div>
+        </div>
+
+        <div className="card card-8">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Claudete Carmo Machado</p>
+          </div>
+        </div>
+    </div>
+
+
+    <div className="cards-list-2">
+        <div className="card card-5">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Alexandre Magalhães Deboletta</p>
+          </div>
+        </div>
+
+        <div className="card card-6">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Camilly Bianca de Moraes Reis</p>
+          </div>
+        </div>
+
+        <div className="card card-7">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          <div className="card_title title-white">
+            <p>Carolina Romano Teixeira</p>
+          </div>
+        </div>
+
+        <div className="card card-8">
+          <Link to="/" className="botao-card">
+            <div className="card_image_card">
+              <img className="card_image" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+              <div className="overlay">
+                <div className="text">Telefone: (0) 00000-0000<br/>CPF: 000.000.000-00</div>
+              </div>
+            </div>
+          </Link>
+          
+          <div className="card_title title-white">
+            <p>Claudete Carmo Machado</p>
+          </div>
+        </div>
+        </div>
+    </div>
+    
+
+
+
+
+
       </div>
     </>
   );
