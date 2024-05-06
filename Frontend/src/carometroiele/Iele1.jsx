@@ -1,17 +1,15 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import "./carometroidev.css";
+import "./carometroiele.css";
 
-function Idev1() {
+function Iele1() {
   return (
     <>
       <header>
-      <Link to="/home" className="link-senai-logo">
         <img className="senailogo"
-            src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
-            alt="Senai Logo"
-          />
-          </Link>
+          src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
+          alt="Senai Logo"
+        />
         <div className="navbartop">
           <Link to="/home" className="navbarbutton">
             Home
@@ -505,4 +503,4 @@ function Idev1() {
   );
 }
 
-export default Idev1;
+export default Iele1;
