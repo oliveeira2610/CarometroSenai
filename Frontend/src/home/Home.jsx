@@ -3,9 +3,6 @@ import "./home.css"; // Importe os estilos CSS da página inicial
 import { Link } from "react-router-dom";
 
 function Home() {
-
-
-
   const [dropdownOpenHome, setDropdownOpenHome] = useState(false);
   const [dropdownOpenUsuarios, setDropdownOpenUsuarios] = useState(false);
   const [dropdownOpenAluno, setDropdownOpenAluno] = useState(false);
@@ -27,8 +24,6 @@ function Home() {
     setDropdownOpenMatricula(!dropdownOpenMatricula);
   };
 
-
-
   return (
     <>
       <link
@@ -38,22 +33,18 @@ function Home() {
 
       <div className="Tela-home">
         <header className="header">
-
-        <Link to="/home" className="link-senai-logo">
-        <img className="senailogo"
-            src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
-            alt="Senai Logo"
-          />
+          <Link to="/home" className="link-senai-logo">
+            <img
+              className="senailogo"
+              src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png"
+              alt="Senai Logo"
+            />
           </Link>
 
           <h1 className="header-h1">Senai Shunji Nishimura</h1>
-
         </header>
 
-
-
         <div className="conteudo">
-
           <div className="sidenav">
             <a href="#about"></a>
             {/* ////////////////////////////////home///////////////////////////////////////////// */}
@@ -67,13 +58,15 @@ function Home() {
             <button className="dropdown-btn" onClick={toggleDropdownUsuarios}>
               Usuários
               <i
-                className={`fa fa-caret-down ${dropdownOpenUsuarios ? "active" : ""
-                  }`}
+                className={`fa fa-caret-down ${
+                  dropdownOpenUsuarios ? "active" : ""
+                }`}
               ></i>
             </button>
             <div
-              className={`dropdown-container ${dropdownOpenUsuarios ? "show" : ""
-                }`}
+              className={`dropdown-container ${
+                dropdownOpenUsuarios ? "show" : ""
+              }`}
             >
               <Link to="/tirarfoto" className="action-button">
                 &nbsp;&nbsp;Tirar fotos
@@ -88,13 +81,15 @@ function Home() {
             <button className="dropdown-btn" onClick={toggleDropdownAluno}>
               Cursos
               <i
-                className={`fa fa-caret-down ${dropdownOpenAluno ? "active" : ""
-                  }`}
+                className={`fa fa-caret-down ${
+                  dropdownOpenAluno ? "active" : ""
+                }`}
               ></i>
             </button>
             <div
-              className={`dropdown-container ${dropdownOpenAluno ? "show" : ""
-                }`}
+              className={`dropdown-container ${
+                dropdownOpenAluno ? "show" : ""
+              }`}
             >
               <Link to="/idev" className="action-button">
                 &nbsp;&nbsp;Desenvolvimento &nbsp;&nbsp;de Sistemas
@@ -108,7 +103,6 @@ function Home() {
             </div>
 
             {/* //////////////////////////////imagem lateral//////////////////////////////////////////// */}
-
           </div>
           <img
             className="imagem-lateral"
@@ -116,19 +110,44 @@ function Home() {
             alt="Imagem Lateral"
           />
 
+          <svg
+            className="waves-home"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
+            preserveAspectRatio="none"
+            shapeRendering="auto"
+          >
+            <defs>
+              <path
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+              />
+            </defs>
+            <g className="parallax">
+              <use
+                xlinkHref="#gentle-wave"
+                x="48"
+                y="0"
+                fill="rgba(255,255,255,0.7)"
+              />
+              <use
+                xlinkHref="#gentle-wave"
+                x="48"
+                y="3"
+                fill="rgba(255,255,255,0.5)"
+              />
+              <use
+                xlinkHref="#gentle-wave"
+                x="48"
+                y="5"
+                fill="rgba(255,255,255,0.3)"
+              />
+              <use xlinkHref="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+          </svg>
         </div>
-
-
-
-
-
-
-
       </div>
-
-
-
-
     </>
   );
 }
