@@ -287,7 +287,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Juan Miguel Mauro Rodrigues</p>
+            <p>Jhuan Medeiros Cordeiro</p>
           </div>
         </div>
 
@@ -301,7 +301,7 @@ function Idev2() {
             </div>
           </Link>
           <div className="card_title title-white">
-            <p>Jhuan Medeiros Cordeiro</p>
+            <p>Juan Miguel Mauro Rodrigues</p>
           </div>
         </div>
 
