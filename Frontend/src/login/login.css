@@ -6,14 +6,7 @@
 }
 
 .senailogologin{
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logologin{
-  width: 500px;
+  width: 35%;
   display: flex;
   justify-content: center;
   align-items: center;

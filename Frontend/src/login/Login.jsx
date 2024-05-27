@@ -4,13 +4,11 @@ import { Link } from "react-router-dom";
 function Login() {
   return (
     <div className="geral-login">
-    <div class="logologin">
-            <img className="senailogologin" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/SENAI_S%C3%A3o_Paulo_logo.png" alt="Logo do SENAI"/>
-            </div>
-      <div>
+      
         <form id="msform">
       
-        
+        <img className="senailogologin" src="https://upload.wikimedia.org/wikipedia/commons/8/8c/SENAI_S%C3%A3o_Paulo_logo.png" alt="Logo do SENAI"/>
+
           <fieldset>
             <h2 className="fs-title">Login</h2>
             <h3 className="fs-subtitle">Insira seus dados para Login</h3>
@@ -39,7 +37,7 @@ function Login() {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }
 
