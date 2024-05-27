@@ -68,8 +68,15 @@ function Cadastro() {
 
 
   return (
-    <div className="geral-cadast">
+    <div className="geral-cadastro">
       <form id="msform" onSubmit={handleSubmit}>
+        
+      <img
+        className="senailogocadastro"
+        src="https://upload.wikimedia.org/wikipedia/commons/8/8c/SENAI_S%C3%A3o_Paulo_logo.png"
+        alt="Logo do SENAI"
+      />
+
         <ul id="progressbar">
           <li className={step >= 1 ? "active" : ""}>Cadastro</li>
           <li className={step >= 2 ? "active" : ""}>Endereço</li>

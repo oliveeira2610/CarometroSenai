@@ -30,7 +30,7 @@ html {
 .conteudo {
   display: flex;
   justify-content:space-around;
-  padding: 80px;
+  padding: 70px;
   
 }
 
@@ -55,7 +55,7 @@ header {
 /* //////////////////////////////Sidenav//////////////////////////////// */
 
 .sidenav {
-  width: 200px;
+  width: 210px;
   display: flex;
   flex-direction: column;
   background-color:rgb(124, 124, 124);
@@ -192,7 +192,7 @@ header {
   }
 }
 /*Shrinking for mobile*/
-@media (max-width: 768px) {
+@media (max-width: 587px) {
   .waves {
     height:40px;
     min-height:40px;
@@ -202,5 +202,14 @@ header {
   }
   h1 {
     font-size:24px;
+  }
+  .imagem-lateral {
+    width: 0%;
+    height: 60vh;
+    padding: 0px;
+    background-color: rgba(167, 174, 175, 0);
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
   }
 }

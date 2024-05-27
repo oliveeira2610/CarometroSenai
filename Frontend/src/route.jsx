@@ -17,6 +17,7 @@ import Carometroiele3 from "./carometroiele/Iele3.jsx";
 import Carometroimec1 from "./carometroimec/Imec1.jsx";
 import Carometroimec2 from "./carometroimec/Imec2.jsx";
 import Carometroimec3 from "./carometroimec/Imec3.jsx";
+import Dados from "./dados/dados.jsx";
 
 function MainRoutes(){
     return(
@@ -39,6 +40,7 @@ function MainRoutes(){
             <Route path="/carometroimec1" element={<Carometroimec1/>}/>
             <Route path="/carometroimec2" element={<Carometroimec2/>}/>
             <Route path="/carometroimec3" element={<Carometroimec3/>}/>
+            <Route path="/dados" element={<Dados/>}/>
         </Routes>
     )
 }
