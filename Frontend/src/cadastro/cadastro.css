@@ -145,7 +145,7 @@
 }
 
 #progressbar li.active:before, #progressbar li.active:after {
-  background: #ff0000;
+  background: #830000;
   color: white;
 }
 

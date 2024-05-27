@@ -5,38 +5,30 @@
   padding: 0;
 }
 
-.senailogologin{
-  width: 35%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.geral-login{
-  width: 100%;
-  height: 100vh;
-  font-family: montserrat, arial, verdana;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 body {
   font-family: montserrat, arial, verdana;
 }
 
-.resumo-texto {
-    font-size: 18px;
-    color: #333;
-    line-height: 1.6;
-    font-family: Arial, sans-serif;
-	text-align: left;
+.geral-login {
+  width: 100%;
+  height: 100vh;
+  font-family: montserrat, arial, verdana;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.senailogologin {
+  width: 30%;
+
 }
 
 #msform {
   width: 90%;
   max-width: 400px;
-  margin: 50px auto;
+  margin: 0 auto;
   text-align: center;
   position: relative;
 }
@@ -49,7 +41,7 @@ body {
   padding: 20px 30px;
   box-sizing: border-box;
   width: calc(100% - 60px);
-  margin: 0 10%;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -102,6 +94,7 @@ body {
       transform: translateX(-50%) translateZ(0) scaleY(1)
   }
 }
+
 .waveWrapper {
   overflow: hidden;
   position: absolute;
@@ -112,25 +105,30 @@ body {
   margin: auto;
   z-index: -1;
 }
+
 .waveWrapperInner {
   position: absolute;
   width: 100%;
   overflow: hidden;
   height: 100%;
   bottom: -1px;
-  background-image: linear-gradient(to top, #ff5f5f 20%, #a20000 80%);
+  background-image: linear-gradient(to top, #ff5c5c 20%, #ff0000 80%);
 }
+
 .bgTop {
   z-index: 15;
   opacity: 0.5;
 }
+
 .bgMiddle {
   z-index: 10;
   opacity: 0.75;
 }
+
 .bgBottom {
   z-index: 5;
 }
+
 .wave {
   position: absolute;
   left: 0;
@@ -140,24 +138,30 @@ body {
   background-position: 0 bottom;
   transform-origin: center bottom;
 }
+
 .waveTop {
   background-size: 50% 100px;
 }
+
 .waveAnimation .waveTop {
-animation: move-wave 3s;
- -webkit-animation: move-wave 3s;
- -webkit-animation-delay: 1s;
- animation-delay: 1s;
+  animation: move-wave 3s;
+  -webkit-animation: move-wave 3s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
 }
+
 .waveMiddle {
   background-size: 50% 120px;
 }
+
 .waveAnimation .waveMiddle {
   animation: move_wave 10s linear infinite;
 }
+
 .waveBottom {
   background-size: 50% 100px;
 }
+
 .waveAnimation .waveBottom {
   animation: move_wave 15s linear infinite;
 }
