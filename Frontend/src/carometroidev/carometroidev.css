@@ -1,167 +1,123 @@
 .cards-list-1 {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+  display: flex; /* Define que os itens internos serão organizados em um layout flexível (flexbox). */
+  flex-wrap: wrap; /* Permite que os itens internos sejam movidos para a próxima linha se não houver espaço suficiente em uma linha. */
+  justify-content: center; /* Alinha os itens ao centro do contêiner principal. */
 }
 
-
-.cards-list-2 {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
+.cards-list-2, .cards-list-3, .cards-list-4, .cards-list-5, .cards-list-6, .cards-list-7, .cards-list-8 {
+  display: flex; /* Define que os itens internos serão organizados em um layout flexível (flexbox). */
+  flex-wrap: wrap; /* Permite que os itens internos sejam movidos para a próxima linha se não houver espaço suficiente em uma linha. */
+  justify-content: space-between; /* Distribui os itens com espaço igual entre eles. */
 }
-
-
-.cards-list-3 {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-
-
-.cards-list-4 {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-
-.cards-list-5 {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-
-.cards-list-6 {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-
-.cards-list-7 {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-
-.cards-list-8 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  }
 
 .Cards-h1 {
-    text-align: center;
-    color: rgb(124, 124, 124);
-    font-family: 'Ubuntu', sans-serif;
-    margin-top: 6%;
-    height: 80px;
+  text-align: center; /* Alinha o texto ao centro do contêiner. */
+  color: rgb(124, 124, 124); /* Define a cor do texto em um tom de cinza. */
+  font-family: 'Ubuntu', sans-serif; /* Define a fonte do texto como 'Ubuntu' com fallback para fontes sans-serif. */
+  margin-top: 6%; /* Adiciona uma margem superior de 6% do contêiner. */
+  height: 80px; /* Define a altura do elemento como 80 pixels. */
+}
+
+.cards-list {
+  z-index: 0; /* Define a ordem de empilhamento como 0, sem sobreposição específica. */
+  width: 100%; /* Define a largura como 100% do contêiner pai. */
+  display: flex; /* Define que os itens internos serão organizados em um layout flexível (flexbox). */
+  justify-content: space-around; /* Distribui os itens com espaço igual ao redor deles. */
+  flex-wrap: wrap; /* Permite que os itens internos sejam movidos para a próxima linha se não houver espaço suficiente em uma linha. */
+}
+
+.card {
+  margin: 30px auto; /* Adiciona uma margem de 30 pixels ao redor e centraliza horizontalmente. */
+  width: 300px; /* Define a largura como 300 pixels. */
+  height: 350px; /* Define a altura como 350 pixels. */
+  border-radius: 40px; /* Adiciona bordas arredondadas com um raio de 40 pixels. */
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); /* Adiciona sombras ao redor do elemento. */
+  cursor: pointer; /* Muda o cursor para um ponteiro quando o mouse está sobre o elemento. */
+  transition: 0.4s; /* Define uma transição suave para mudanças de estilo. */
+}
+
+.card .botao-card {
+  text-decoration: none; /* Remove a decoração de texto (como sublinhado) dos links. */
+}
+
+.card .card_image {
+  width: inherit; /* Herda a largura do elemento pai. */
+  height: inherit; /* Herda a altura do elemento pai. */
+  border-radius: 40px; /* Adiciona bordas arredondadas com um raio de 40 pixels. */
+}
+
+.card .card_image_card {
+  width: 300px; /* Define a largura como 300 pixels. */
+  height: 355px; /* Define a altura como 355 pixels. */
+  border-radius: 40px; /* Adiciona bordas arredondadas com um raio de 40 pixels. */
+  position: relative; /* Define a posição como relativa para posicionar elementos internos. */
+}
+
+.card .card_image_card .overlay {
+  position: absolute; /* Define a posição como absoluta para posicionamento dentro do contêiner pai. */
+  top: 0; /* Posiciona no topo do contêiner pai. */
+  bottom: 0; /* Posiciona na parte inferior do contêiner pai. */
+  left: 0; /* Posiciona à esquerda do contêiner pai. */
+  right: 0; /* Posiciona à direita do contêiner pai. */
+  height: 100%; /* Define a altura como 100% do contêiner pai. */
+  width: 100%; /* Define a largura como 100% do contêiner pai. */
+  opacity: 0; /* Inicialmente invisível. */
+  transition: .5s ease; /* Transição suave ao mudar a opacidade. */
+  border-radius: 40px; /* Adiciona bordas arredondadas com um raio de 40 pixels. */
+  background-color: rgba(0,0,0,0.5); /* Define a cor de fundo com opacidade para sobreposição. */
+}
+
+.card .card_image_card:hover .overlay {
+  opacity: 1; /* Torna a sobreposição visível ao passar o mouse. */
+}
+
+.card .card_image img {
+  width: inherit; /* Herda a largura do elemento pai. */
+  height: inherit; /* Herda a altura do elemento pai. */
+  border-radius: 40px; /* Adiciona bordas arredondadas com um raio de 40 pixels. */
+  object-fit: cover; /* Redimensiona a imagem para cobrir o contêiner. */
+}
+
+.card .card_title {
+  text-align: center; /* Alinha o texto ao centro do contêiner. */
+  border-radius: 0px 0px 40px 40px; /* Adiciona bordas arredondadas apenas na parte inferior. */
+  font-family: sans-serif; /* Define a fonte do texto como sans-serif. */
+  font-weight: bold; /* Define o peso da fonte como negrito. */
+  font-size: 30px; /* Define o tamanho da fonte como 30 pixels. */
+  text-decoration: none; /* Remove a decoração de texto (como sublinhado). */
+  height: 40px; /* Define a altura como 40 pixels. */
+  margin-bottom: -140px; /* Adiciona uma margem inferior negativa para sobrepor outros elementos. */
+  font-family: 'Ubuntu', sans-serif; /* Define a fonte do texto como 'Ubuntu' com fallback para fontes sans-serif. */
+  color: rgb(136, 138, 139); /* Define a cor do texto em um tom de cinza. */
+}
+
+.card .card_image_card .text {
+  color: white; /* Define a cor do texto como branco. */
+  font-size: 20px; /* Define o tamanho da fonte como 20 pixels. */
+  position: absolute; /* Define a posição como absoluta para posicionamento dentro do contêiner pai. */
+  top: 50%; /* Posiciona no meio do contêiner pai verticalmente. */
+  left: 50%; /* Posiciona no meio do contêiner pai horizontalmente. */
+  transform: translate(-50%, -50%); /* Centraliza o texto completamente. */
+  text-align: center; /* Alinha o texto ao centro do contêiner. */
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9); /* Reduz o tamanho do elemento para 90% ao passar o mouse. */
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22); /* Adiciona sombras ao redor do elemento ao passar o mouse. */
+}
+
+.title-white {
+  color: white; /* Define a cor do texto como branco. */
+}
+
+.title-black {
+  color: black; /* Define a cor do texto como preto. */
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column; /* Altera a direção do flex para coluna em telas pequenas. */
   }
-  
-  
-   .cards-list {
-      z-index: 0;
-      width: 100%;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-    
-    .card {
-      margin: 30px auto;
-      width: 300px;
-      height: 350px;
-      border-radius: 40px;
-      box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-      cursor: pointer;
-      transition: 0.4s;
-      
-    }
-    
-    .card .botao-card{
-      text-decoration: none;
-    }
-  
-    .card .card_image {
-      width: inherit;
-      height: inherit;
-      border-radius: 40px;
-    }
-    
-    .card .card_image_card {
-      width: 300px;
-      height: 355px;
-      border-radius: 40px;
-      position: relative;
-    }
-  
-    .card .card_image_card .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        border-radius: 40px;
-        background-color: rgba(0,0,0,0.5);
-      }
-
-    .card .card_image_card:hover .overlay {
-    opacity: 1;
-    }
-
-    .card .card_image img {
-      width: inherit;
-      height: inherit;
-      border-radius: 40px;
-      object-fit: cover;
-    }
-    
-    .card .card_title {
-      text-align: center;
-      border-radius: 0px 0px 40px 40px;
-      font-family: sans-serif;
-      font-weight: bold;
-      font-size: 30px;
-      text-decoration: none;
-      height: 40px;
-      margin-bottom: -140px;
-      font-family: 'Ubuntu', sans-serif;
-      color:rgb(136, 138, 139);
-    }
-
-    .card .card_image_card .text {
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
-    
-    .card:hover {
-      transform: scale(0.9, 0.9);
-      box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-        -5px -5px 30px 15px rgba(0,0,0,0.22);
-    }
-    
-    .title-white {
-      color: white;
-    }
-    
-    .title-black {
-      color: black;
-    }
-    
-  
-    @media all and (max-width: 500px) {
-      .card-list {
-        /* On small screens, we are no longer using row direction but column */
-        flex-direction: column;
-      }
-    }
-  
-  
+}
