@@ -4,6 +4,11 @@ import { Link } from "react-router-dom";
 function Login() {
   return (
     <div className="geral-login">
+      <img
+              className="senailogologin"
+              src="https://upload.wikimedia.org/wikipedia/commons/8/8c/SENAI_S%C3%A3o_Paulo_logo.png"
+              alt="Senai Logo"
+            />
       <div>
         <form id="msform">
           <fieldset>

@@ -150,6 +150,7 @@ header {
   width: 100%;
   min-height:100px;
   max-height:150px;
+  
   bottom: 0; /* Coloca as ondas na parte inferior */
   z-index: -1; /* Garante que as ondas fiquem atrás do conteúdo */
 }

@@ -129,13 +129,13 @@ function Home() {
                 xlinkHref="#gentle-wave"
                 x="48"
                 y="0"
-                fill="rgba(255,255,255,0.7)"
+                fill="rgba(189, 189, 189,0.7)"
               />
               <use
                 xlinkHref="#gentle-wave"
                 x="48"
                 y="3"
-                fill="rgba(255,255,255,0.5)"
+                fill="rgba(156, 156, 156,0.5)"
               />
               <use
                 xlinkHref="#gentle-wave"
@@ -143,7 +143,7 @@ function Home() {
                 y="5"
                 fill="rgba(255,255,255,0.3)"
               />
-              <use xlinkHref="#gentle-wave" x="48" y="7" fill="#fff" />
+              <use xlinkHref="#gentle-wave" x="48" y="7" fill="#bdbdbd" />
             </g>
           </svg>
         </div>
