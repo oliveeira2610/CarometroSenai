@@ -29,46 +29,31 @@ function Dados() {
       </header>
 
       <div className="titulo">
-            <h1 className="Cards-h1">Técnico em Desenvolvimento de Sistemas</h1>
+            <h1 className="dados-h1">Informações</h1>
         </div>
 
-      <div class="cards-list">
-      <div className="card 1">
+      <div className="geral-dados">
 
-      <Link to="/carometroidev1" className="botão-card-idev">
-        <div className="card_image_card" >
-          <img className="card_image_card" src="src/assets/idev1.jpg" alt="IDEV1" />
-        </div>
-      </Link>
-        <div className="card_title title-white">
-          <p>IDEV1 - 2022</p>
-        </div>
-    </div>
-
-      <div class="card 2">
-      <Link to="/carometroidev2" className="botão-card">
-        <div className="card_image_card">
-          <img className="card_image_card"   src="src/assets/idev2.jpg" />
-        </div>
-      </Link>
-      <div class="card_title title-white">
-          <p>IDEV2 - 2023</p>
-      </div>
-      </div>
-      
-      <div class="card 3">
-      <Link to="/carometroidev3" className="botão-card" >
-        <div className="card_image_card">
-          <img className="card_image_card" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" />
-        </div>
-      </Link>
-        <div class="card_title title-white">
-          <p>IDEV3 - 2024</p>
-        </div>
-      </div>
-
-
+      <div className="card-dados">
         
+        <div className="dentro-card-dados">
+                   <img className="dados-img" src="https://cdn-icons-png.flaticon.com/512/4123/4123763.png" alt="User Icon"/>
+         </div>
+
+         <div className="informacoes-dados">
+          <h1 className="informacoes-dados-h1">Nome:</h1>
+          <h1 className="informacoes-dados-h1">CPF:</h1>
+          <h1 className="informacoes-dados-h1">Email:</h1>
+          <h1 className="informacoes-dados-h1">Telefone:</h1>
+          <h1 className="informacoes-dados-h1">Endereço:</h1>
+          <h1 className="informacoes-dados-h1">Matricula:</h1>
+          <h1 className="informacoes-dados-h1">Turma:</h1>
+          <h1 className="informacoes-dados-h1">Curso:</h1>
+          
+        </div>
+      </div>
+        
+
       </div>
     </>
   );
