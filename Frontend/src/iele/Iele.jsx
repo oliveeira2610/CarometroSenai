@@ -19,7 +19,7 @@ function Iele() {
           </Link>
 
           
-          <Link to="/" className="navbarbutton">
+          <Link to="/usuarios" className="navbarbutton">
                 Usuários
           </Link>
   

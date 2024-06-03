@@ -16,7 +16,7 @@ function Imec1() {
           <Link to="/home" className="navbarbutton">
             Home
           </Link>
-          <Link to="/" className="navbarbutton">
+          <Link to="/usuarios" className="navbarbutton">
             Usuários
           </Link>
           <Link to="/cursos" className="navbarbutton">
