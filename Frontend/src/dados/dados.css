@@ -4,7 +4,10 @@
 
 .geral-dados{
 display: flex;
-justify-content: space-around;
+justify-content: center ;
+align-items: center;
+width: inherit;
+height: inherit;
 }
 .dados-h1{
   text-align: center;
@@ -17,7 +20,7 @@ justify-content: space-around;
 
 .card-dados{
   height: 500px;
-  width: 1000px;
+  width: 70%;
   background-color: rgb(131, 131, 131);
   border-radius: 20px;
   display: flex;
@@ -25,12 +28,12 @@ justify-content: space-around;
 }
 
 .dados-img{
-  background-color: rgb(59, 59, 59);
-    width: 400px;
-    height: 450px;
+   background-color: rgb(59, 59, 59);
+    width: 80%;
+    height: 90%;
     border-radius: 20px;
     margin-top: 5%;
-    
+        
 }
 
 .informacoes-dados-h1{
