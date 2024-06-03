@@ -4,6 +4,7 @@ import Cadastro from "./cadastro/Cadastro.jsx";
 import Home from "./home/Home.jsx";
 import Tirarfoto from "./tirarfoto/TirarFoto.jsx";
 import Consultas from "./consultas/Consultas.jsx";
+import Usuarios from "./usuarios/Usuarios.jsx";
 import Idev from "./idev/Idev.jsx";
 import Iele from "./iele/Iele.jsx";
 import Imec from "./imec/Imec.jsx";
@@ -27,6 +28,7 @@ function MainRoutes(){
             <Route path="/home" element={<Home/>}/> 
             <Route path="/tirarfoto" element={<Tirarfoto/>}/>
             <Route path="/consultas" element={<Consultas/>}/>
+            <Route path="/usuarios" element={<Usuarios/>}/>
             <Route path="/cursos" element={<Cursos/>}/>
             <Route path="/idev" element={<Idev/>}/>
             <Route path="/iele" element={<Iele/>}/>

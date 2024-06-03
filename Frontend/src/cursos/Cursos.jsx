@@ -20,11 +20,11 @@ function Cursos() {
             Home
           </Link>
 
-          <Link to="/tirarfoto" className="navbarbutton">
+          <Link to="/usuarios" className="navbarbutton">
             Usuários
           </Link>
 
-          <Link to="/" className="navbarbutton">
+          <Link to="/cursos" className="navbarbutton">
             Cursos
           </Link>
         </div>
