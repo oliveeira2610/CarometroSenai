@@ -1,155 +1,163 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat); /* Importa a fonte Montserrat do Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 * {
   margin: 0;
   padding: 0;
-} /* Define margens e preenchimentos padrão como 0 para todos os elementos */
+}
 
 .geral-cadastro{
   width: 100%;
   height: 100vh;
-  display: flex; /* Define a exibição como flexível */
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  align-items: center; /* Centraliza o conteúdo verticalmente */
-} /* Estilos para o contêiner geral do formulário de cadastro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .senailogocadastro {
-  width: 90%; /* Largura do logo */
-  margin-bottom: 4%; /* Margem inferior */
-  margin-top: 60%; /* Margem superior */
-} /* Estilos para o logo do SENAI no formulário de cadastro */
+  width: 90%;
+  margin-bottom: 4%;
+  margin-top: 60%;
+}
+
+
+/*  */
+
 
 .resumo-texto {
-    font-size: 18px; /* Tamanho da fonte */
-    color: #333; /* Cor do texto */
-    line-height: 1.6; /* Altura da linha */
-    font-family: Arial, sans-serif; /* Família da fonte */
-	text-align: left; /* Alinhamento do texto */
-} /* Estilos para o texto de resumo no formulário de cadastro */
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+	text-align: left;
+}
+
 
 #msform {
-  width: 100%; /* Largura total */
-  max-width: 400px; /* Largura máxima */
-  margin: 50px auto; /* Margens superior e inferior automáticas, margens laterais automáticas */
-  text-align: center; /* Centraliza o conteúdo */
-  justify-items: center; /* Centraliza itens ao longo do eixo secundário */
-  display: grid; /* Define a exibição como grid */
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  margin-bottom: 20%; /* Margem inferior */
-} /* Estilos para o formulário de cadastro */
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  justify-items: center;
+  display: grid;
+  justify-content: center;
+  margin-bottom: 20%;
+}
 
 #msform fieldset {
-  background: white; /* Cor de fundo */
-  border: 0 none; /* Remove a borda */
-  border-radius: 3px; /* Raio da borda */
-  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4); /* Sombra */
-  padding: 20px 30px; /* Preenchimento */
-  box-sizing: border-box; /* Inclui o preenchimento na largura e altura */
-  width: calc(100% - 60px); /* Largura calculada com base na largura total e no preenchimento lateral */
-  margin: 0 10%; /* Margem */
-  position: relative; /* Posição relativa */
-} /* Estilos para os conjuntos de campos do formulário */
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  width: calc(100% - 60px);
+  margin: 0 10%;
+  position: relative;
+  
+}
 
 #msform fieldset:not(:first-of-type) {
-  display: none; /* Esconde todos os conjuntos de campos, exceto o primeiro */
-} /* Estilos para os conjuntos de campos do formulário */
+  display: none;
+}
 
 #msform input, #msform textarea {
-  padding: 15px; /* Preenchimento */
-  border: 1px solid #ccc; /* Borda */
-  border-radius: 3px; /* Raio da borda */
-  margin-bottom: 10px; /* Margem inferior */
-  width: calc(100% - 30px); /* Largura calculada com base na largura total e no preenchimento lateral */
-  box-sizing: border-box; /* Inclui o preenchimento na largura e altura */
-  font-family: montserrat; /* Família da fonte */
-  color: #2C3E50; /* Cor do texto */
-  font-size: 13px; /* Tamanho da fonte */
-} /* Estilos para os campos de entrada e áreas de texto do formulário */
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: calc(100% - 30px);
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2C3E50;
+  font-size: 13px;
+}
 
 .botoes {
-  display: flex; /* Define a exibição como flexível */
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-} /* Estilos para os botões do formulário */
+  display: flex;
+  justify-content: center;
+}
 
 #msform .action-button {
-  width: auto; /* Largura automática */
-  background: #de0909; /* Cor de fundo */
-  font-weight: bold; /* Peso da fonte */
-  color: white; /* Cor do texto */
-  border: 0 none; /* Remove a borda */
-  border-radius: 1px; /* Raio da borda */
-  cursor: pointer; /* Cursor */
-  padding: 10px; /* Preenchimento */
-  margin: 10px 5px; /* Margem */
-  font-size: 14px; /* Tamanho da fonte */
-  text-decoration: none; /* Remove a decoração do texto */
-  display: flex; /* Define a exibição como flexível */
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  align-items: center; /* Centraliza o conteúdo verticalmente */
-} /* Estilos para os botões de ação do formulário */
+  width: auto;
+  background: #de0909;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px 5px;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 #msform .fs-title {
-  font-size: 15px; /* Tamanho da fonte */
-  text-transform: uppercase; /* Transformação de texto */
-  color: #2C3E50; /* Cor do texto */
-  margin-bottom: 10px; /* Margem inferior */
-} /* Estilos para o título do conjunto de campos do formulário */
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
 
 #msform .fs-subtitle {
-  font-weight: normal; /* Peso da fonte */
-  font-size: 13px; /* Tamanho da fonte */
-  color: #666; /* Cor do texto */
-  margin-bottom: 20px; /* Margem inferior */
-} /* Estilos para o subtítulo do conjunto de campos do formulário */
+  font-weight: normal;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+}
 
 #progressbar {
-  margin-bottom: 2%; /* Margem inferior */
-  overflow: hidden; /* Oculta o conteúdo que estoura */
-  counter-reset: step; /* Reinicia o contador */
-  width: inherit; /* Largura igual à largura do elemento pai */
-} /* Estilos para a barra de progresso do formulário */
+  margin-bottom: 2%;
+  overflow: hidden;
+  counter-reset: step;
+  width: inherit
+}
 
 #progressbar li {
-  list-style-type: none; /* Remove a marcação de lista */
-  color: white; /* Cor do texto */
-  text-transform: uppercase; /* Transformação de texto */
-  font-size: 9px; /* Tamanho da fonte */
-  width: 33.33%; /* Largura igualmente dividida */
-  float: left; /* Flutua para a esquerda */
-  position: relative; /* Posição relativa */
-} /* Estilos para os itens da barra de progresso do formulário */
+  list-style-type: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 9px;
+  width: 33.33%;
+  float: left;
+  position: relative;
+  
+}
 
 #progressbar li:before {
-  content: counter(step); /* Define o conteúdo como o valor do contador */
-  counter-increment: step; /* Incrementa o contador */
-  width: 20px; /* Largura do marcador */
-  line-height: 20px; /* Altura da linha */
-  display: block; /* Exibição em bloco */
-  font-size: 10px; /* Tamanho da fonte */
-  color: #333; /* Cor do texto */
-  background: white; /* Cor de fundo */
-  border-radius: 3px; /* Raio da borda */
-  margin: 0 auto 5px auto; /* Margem */
+  content: counter(step);
+  counter-increment: step;
+  width: 20px;
+  line-height: 20px;
+  display: block;
+  font-size: 10px;
+  color: #333;
+  background: white;
+  border-radius: 3px;
+  margin: 0 auto 5px auto;
 }
 
 #progressbar li:after {
-  content: ''; /* Conteúdo vazio */
-  width: 100%; /* Largura */
-  height: 2px; /* Altura */
-  background: white; /* Cor de fundo */
-  position: absolute; /* Posição absoluta */
-  left: -50%; /* Alinhamento à esquerda */
-  top: 9px; /* Posicionamento vertical */
-  z-index: -1; /* Z-index */
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: -50%;
+  top: 9px;
+  z-index: -1;
 }
 
 #progressbar li:first-child:after {
-  content: none; /* Oculta o pseudo-elemento após o primeiro item */
+  content: none;
 }
 
 #progressbar li.active:before, #progressbar li.active:after {
-  background: #830000; /* Cor de fundo quando ativo */
-  color: white; /* Cor do texto quando ativo */
+  background: #830000;
+  color: white;
 }
 
 
@@ -157,37 +165,37 @@
 @media only screen and (max-width: 600px) {
   
   #msform {
-    width: 95%; /* Largura do formulário em telas menores */
-    margin: 20px auto; /* Margens do formulário em telas menores */
+    width: 95%;
+    margin: 20px auto;
   }
 
   #msform fieldset {
-    padding: 10px 20px; /* Preenchimento dos conjuntos de campos em telas menores */
+    padding: 10px 20px;
   }
 
   #msform input, #msform textarea {
-    padding: 10px; /* Preenchimento dos campos de entrada e áreas de texto em telas menores */
+    padding: 10px;
   }
 
   #msform .action-button {
-    padding: 5px 10px; /* Preenchimento dos botões de ação em telas menores */
-    font-size: 12px; /* Tamanho da fonte dos botões de ação em telas menores */
+    padding: 5px 10px;
+    font-size: 12px;
   }
 
   #progressbar li {
-    font-size: 7px; /* Tamanho da fonte dos itens da barra de progresso em telas menores */
+    font-size: 7px;
   }
 }
 
 
 @keyframes move_wave {
   0% {
-      transform: translateX(0) translateZ(0) scaleY(1);
+      transform: translateX(0) translateZ(0) scaleY(1)
   }
   50% {
-      transform: translateX(-25%) translateZ(0) scaleY(0.55);
+      transform: translateX(-25%) translateZ(0) scaleY(0.55)
   }
   100% {
-      transform: translateX(-50%) translateZ(0) scaleY(1);
+      transform: translateX(-50%) translateZ(0) scaleY(1)
   }
 }
