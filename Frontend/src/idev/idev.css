@@ -1,91 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); /* Importa a fonte 'Ubuntu' do Google Fonts. */
 
 .Cards-h1 {
-  text-align: center;
-  color: rgb(124, 124, 124);
-  font-family: 'Ubuntu', sans-serif;
-  margin-top: 6%;
-  height: 80px;
+  text-align: center; /* Alinha o texto centralmente. */
+  color: rgb(124, 124, 124); /* Define a cor do texto em RGB. */
+  font-family: 'Ubuntu', sans-serif; /* Define a fonte para 'Ubuntu', seguida por fontes genéricas caso não seja possível carregar. */
+  margin-top: 6%; /* Define uma margem superior de 6%. */
+  height: 80px; /* Define uma altura de 80 pixels. */
 }
 
+.cards-list {
+  z-index: 0; /* Define a ordem de empilhamento do elemento. */
+  width: 100%; /* Define a largura como 100% da largura do contêiner pai. */
+  display: flex; /* Define o elemento como um flex container. */
+  justify-content: space-around; /* Distribui o espaço entre os itens com espaçamento uniforme. */
+  flex-wrap: wrap; /* Define que os itens flexíveis quebrarão em várias linhas conforme necessário. */
+}
 
- .cards-list {
-    z-index: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    margin: 30px auto;
-    width: 300px;
-    height: 350px;
-    border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-    cursor: pointer;
-    transition: 0.4s;
-    
-  }
-  
-  .card .botao-card{
-    text-decoration: none;
-  }
+.card {
+  margin: 30px auto; /* Define margens superior e inferior de 30 pixels e laterais automáticas. */
+  width: 300px; /* Define uma largura fixa de 300 pixels. */
+  height: 350px; /* Define uma altura fixa de 350 pixels. */
+  border-radius: 40px; /* Define um raio de borda de 40 pixels, criando cantos arredondados. */
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); /* Adiciona uma sombra ao cartão. */
+  cursor: pointer; /* Altera o cursor para um ponteiro ao passar o mouse sobre o cartão. */
+  transition: 0.4s; /* Adiciona uma transição suave de 0.4 segundos. */
+}
 
-  .card .card_image {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-  }
-  
-  .card .card_image_card {
-    width: 300px;
-    height: 355px;
-    border-radius: 40px;
-  }
+.card .botao-card {
+  text-decoration: none; /* Remove a decoração de texto dos links. */
+}
 
-  .card .card_image img {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-    object-fit: cover;
-  }
-  
-  .card .card_title {
-    text-align: center;
-    border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    text-decoration: none;
-    height: 40px;
-    margin-bottom: -140px;
-    font-family: 'Ubuntu', sans-serif;
-    color:rgb(136, 138, 139);
-  }
-  
-  .card:hover {
-    transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-      -5px -5px 30px 15px rgba(0,0,0,0.22);
-  }
-  
-  .title-white {
-    color: white;
-  }
-  
-  .title-black {
-    color: black;
-  }
-  
+.card .card_image {
+  width: inherit; /* Define a largura da imagem igual à largura do elemento pai. */
+  height: inherit; /* Define a altura da imagem igual à altura do elemento pai. */
+  border-radius: 40px; /* Define um raio de borda de 40 pixels, criando cantos arredondados. */
+}
 
-  @media all and (max-width: 500px) {
-    .card-list {
-      /* On small screens, we are no longer using row direction but column */
-      flex-direction: column;
-    }
-  }
+.card .card_image_card {
+  width: 300px; /* Define uma largura fixa de 300 pixels para a imagem do cartão. */
+  height: 355px; /* Define uma altura fixa de 355 pixels para a imagem do cartão. */
+  border-radius: 40px; /* Define um raio de borda de 40 pixels, criando cantos arredondados. */
+}
 
+.card .card_image img {
+  width: inherit; /* Define a largura da imagem igual à largura do elemento pai. */
+  height: inherit; /* Define a altura da imagem igual à altura do elemento pai. */
+  border-radius: 40px; /* Define um raio de borda de 40 pixels, criando cantos arredondados. */
+  object-fit: cover; /* Define como a imagem deve ser redimensionada para preencher seu contêiner. */
+}
+
+.card .card_title {
+  text-align: center; /* Alinha o texto centralmente. */
+  border-radius: 0px 0px 40px 40px; /* Define um raio de borda diferente para cada canto, criando um efeito degradê na parte inferior. */
+  font-family: sans-serif; /* Define a fonte do texto como sans-serif. */
+  font-weight: bold; /* Define a espessura da fonte como negrito. */
+  font-size: 30px; /* Define o tamanho da fonte como 30 pixels. */
+  text-decoration: none; /* Remove a decoração de texto dos links. */
+  height: 40px; /* Define a altura do título como 40 pixels. */
+  margin-bottom: -140px; /* Move o título para cima para sobrepor a parte inferior da imagem. */
+  font-family: 'Ubuntu', sans-serif; /* Define a fonte do texto como 'Ubuntu', seguida por fontes genéricas caso não seja possível carregar. */
+  color:rgb(136, 138, 139); /* Define a cor do texto em RGB. */
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9); /* Diminui o tamanho do cartão ao passar o mouse sobre ele. */
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), -5px -5px 30px 15px rgba(0,0,0,0.22); /* Adiciona uma sombra maior ao cartão ao passar o mouse sobre ele. */
+}
+
+.title-white {
+  color: white; /* Define a cor do texto como branco. */
+}
+
+.title-black {
+  color: black; /* Define a cor do texto como preto. */
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* Em telas pequenas, não estamos mais usando a direção de linha, mas coluna */
+    flex-direction: column; /* Define a direção dos itens flexíveis como coluna em telas pequenas. */
+  }
+}

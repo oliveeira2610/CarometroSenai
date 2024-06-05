@@ -1,167 +1,168 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Montserrat); /* Importa a fonte Montserrat do Google Fonts. */
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0; /* Define margem zero para todos os elementos. */
+  padding: 0; /* Define padding zero para todos os elementos. */
 }
 
 body {
-  font-family: montserrat, arial, verdana;
+  font-family: montserrat, arial, verdana; /* Define a fonte para o corpo do documento. */
 }
 
 .geral-login {
-  width: 100%;
-  height: 100vh;
-  font-family: montserrat, arial, verdana;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  width: 100%; /* Define a largura como 100% do elemento pai. */
+  height: 100vh; /* Define a altura como 100% da altura da janela de visualização. */
+  font-family: montserrat, arial, verdana; /* Define a fonte para o componente geral-login. */
+  display: flex; /* Define o layout flexível. */
+  flex-direction: column; /* Define a direção dos elementos como coluna. */
+  justify-content: center; /* Alinha os itens verticalmente ao centro. */
+  align-items: center; /* Alinha os itens horizontalmente ao centro. */
+  position: relative; /* Define a posição relativa para que os elementos filhos possam ser posicionados relativamente a este elemento. */
 }
 
 .senailogologin {
-  width: 30%;
-  margin-top: 10%;
+  width: 30%; /* Define a largura como 30% do elemento pai. */
+  margin-top: 10%; /* Define uma margem superior de 10%. */
 }
 
 #msform {
-  width: 90%;
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
+  width: 90%; /* Define a largura como 90% do elemento pai. */
+  max-width: 400px; /* Define a largura máxima como 400px. */
+  margin: 0 auto; /* Centraliza o formulário horizontalmente. */
+  text-align: center; /* Alinha o texto ao centro. */
+  position: relative; /* Define a posição relativa para que os elementos filhos possam ser posicionados relativamente a este elemento. */
 }
 
 #msform fieldset {
-  background: white;
-  border: 0 none;
-  border-radius: 3px;
-  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-  padding: 20px 30px;
-  box-sizing: border-box;
-  width: calc(100% - 60px);
-  margin: 0 auto;
-  position: relative;
+  background: white; /* Define o fundo como branco. */
+  border: 0 none; /* Remove a borda. */
+  border-radius: 3px; /* Define a borda arredondada. */
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4); /* Adiciona uma sombra. */
+  padding: 20px 30px; /* Adiciona espaçamento interno. */
+  box-sizing: border-box; /* Inclui a borda e o padding na largura e altura total. */
+  width: calc(100% - 60px); /* Calcula a largura para compensar o padding horizontal. */
+  margin: 0 auto; /* Centraliza horizontalmente. */
+  position: relative; /* Define a posição relativa para que os elementos filhos possam ser posicionados relativamente a este elemento. */
 }
 
 #msform fieldset:not(:first-of-type) {
-  display: none;
+  display: none; /* Oculta todos os fieldsets, exceto o primeiro. */
 }
 
-#msform input, #msform textarea {
-  padding: 15px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  margin-bottom: 10px;
-  width: calc(100% - 30px);
-  box-sizing: border-box;
-  font-family: montserrat;
-  color: #2C3E50;
-  font-size: 13px;
+#msform input,
+#msform textarea {
+  padding: 15px; /* Adiciona padding aos inputs e textareas. */
+  border: 1px solid #ccc; /* Adiciona uma borda sólida. */
+  border-radius: 3px; /* Define a borda arredondada. */
+  margin-bottom: 10px; /* Adiciona margem inferior. */
+  width: calc(100% - 30px); /* Calcula a largura para compensar o padding horizontal. */
+  box-sizing: border-box; /* Inclui a borda e o padding na largura e altura total. */
+  font-family: montserrat; /* Define a fonte. */
+  color: #2C3E50; /* Define a cor do texto. */
+  font-size: 13px; /* Define o tamanho da fonte. */
 }
 
 .botoes {
-  display: flex;
-  justify-content: center;
+  display: flex; /* Define o layout flexível. */
+  justify-content: center; /* Alinha os itens horizontalmente ao centro. */
 }
 
 #msform .action-button {
-  width: auto;
-  background: #de0909;
-  font-weight: bold;
-  color: white;
-  border: 0 none;
-  border-radius: 1px;
-  cursor: pointer;
-  padding: 10px;
-  margin: 10px 5px;
-  font-size: 14px;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: auto; /* Define a largura automaticamente. */
+  background: #de0909; /* Define a cor de fundo. */
+  font-weight: bold; /* Define a espessura da fonte como negrito. */
+  color: white; /* Define a cor do texto. */
+  border: 0 none; /* Remove a borda. */
+  border-radius: 1px; /* Define a borda arredondada. */
+  cursor: pointer; /* Define o cursor como apontador. */
+  padding: 10px; /* Adiciona padding. */
+  margin: 10px 5px; /* Adiciona margem. */
+  font-size: 14px; /* Define o tamanho da fonte. */
+  text-decoration: none; /* Remove a decoração do texto. */
+  display: flex; /* Define o layout flexível. */
+  justify-content: center; /* Alinha os itens horizontalmente ao centro. */
+  align-items: center; /* Alinha os itens verticalmente ao centro. */
 }
 
 @keyframes move_wave {
   0% {
-      transform: translateX(0) translateZ(0) scaleY(1)
+    transform: translateX(0) translateZ(0) scaleY(1); /* Define a transformação para a animação da onda. */
   }
   50% {
-      transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    transform: translateX(-25%) translateZ(0) scaleY(0.55); /* Define a transformação para a animação da onda na metade do tempo. */
   }
   100% {
-      transform: translateX(-50%) translateZ(0) scaleY(1)
+    transform: translateX(-50%) translateZ(0) scaleY(1); /* Define a transformação para a animação da onda no final. */
   }
 }
 
 .waveWrapper {
-  overflow: hidden;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  margin: auto;
-  z-index: -1;
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse as dimensões do contêiner. */
+  position: absolute; /* Define a posição absoluta para o contêiner. */
+  left: 0; /* Define a posição do lado esquerdo do contêiner. */
+  right: 0; /* Define a posição do lado direito do contêiner. */
+  bottom: 0; /* Define a posição na parte inferior do contêiner. */
+  top: 0; /* Define a posição no topo do contêiner. */
+  margin: auto; /* Centraliza o contêiner horizontalmente. */
+  z-index: -1; /* Define o índice Z para garantir que o contêiner fique atrás do conteúdo principal. */
 }
 
 .waveWrapperInner {
-  position: absolute;
-  width: 100%;
-  overflow: hidden;
-  height: 100%;
-  bottom: -1px;
-  background-image: linear-gradient(to top, #ff5c5c 20%, #ff0000 80%);
+  position: absolute; /* Define a posição absoluta para o elemento interno do contêiner da onda. */
+  width: 100%; /* Define a largura como 100% do contêiner. */
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse as dimensões do elemento interno. */
+  height: 100%; /* Define a altura como 100% do contêiner. */
+  bottom: -1px; /* Move o elemento interno para baixo em 1px para evitar que a onda seja cortada na parte inferior. */
+  background-image: linear-gradient(to top, #ff5c5c 20%, #ff0000 80%); /* Define uma imagem de fundo como uma gradiente linear para a onda. */
 }
 
 .bgTop {
-  z-index: 15;
-  opacity: 0.5;
+  z-index: 15; /* Define um índice Z alto para a camada superior da onda. */
+  opacity: 0.5; /* Define a opacidade da camada superior da onda. */
 }
 
 .bgMiddle {
-  z-index: 10;
-  opacity: 0.75;
+  z-index: 10; /* Define um índice Z médio para a camada do meio da onda. */
+  opacity: 0.75; /* Define a opacidade da camada do meio da onda. */
 }
 
 .bgBottom {
-  z-index: 5;
+  z-index: 5; /* Define um índice Z baixo para a camada inferior da onda. */
 }
 
 .wave {
-  position: absolute;
-  left: 0;
-  width: 200%;
-  height: 100%;
-  background-repeat: repeat no-repeat;
-  background-position: 0 bottom;
-  transform-origin: center bottom;
+  position: absolute; /* Define a posição absoluta para a onda. */
+  left: 0; /* Define a posição do lado esquerdo da onda. */
+  width: 200%; /* Define a largura como 200% para garantir que a onda cubra toda a largura da tela. */
+  height: 100%; /* Define a altura como 100% para cobrir toda a altura do contêiner. */
+  background-repeat: repeat no-repeat; /* Define a repetição do fundo como não repetir para evitar a repetição da onda. */
+  background-position: 0 bottom; /* Define a posição inicial do fundo na parte inferior. */
+  transform-origin: center bottom; /* Define o ponto de origem da transformação como o centro da parte inferior. */
 }
 
 .waveTop {
-  background-size: 50% 100px;
+  background-size: 50% 100px; /* Define o tamanho do fundo da onda superior. */
 }
 
 .waveAnimation .waveTop {
-  animation: move-wave 3s;
-  -webkit-animation: move-wave 3s;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  animation: move-wave 3s; /* Aplica a animação move-wave na onda superior. */
+  -webkit-animation: move-wave 3s; /* Adiciona a animação move-wave com o prefixo para navegadores WebKit. */
+  -webkit-animation-delay: 1s; /* Define um atraso de 1 segundo para a animação da onda superior no WebKit. */
+  animation-delay: 1s; /* Define um atraso de 1 segundo para a animação da onda superior. */
 }
 
 .waveMiddle {
-  background-size: 50% 120px;
+  background-size: 50% 120px; /* Define o tamanho do fundo da onda do meio. */
 }
 
 .waveAnimation .waveMiddle {
-  animation: move_wave 10s linear infinite;
+  animation: move_wave 10s linear infinite; /* Aplica a animação move_wave na onda do meio. */
 }
 
 .waveBottom {
-  background-size: 50% 100px;
+  background-size: 50% 100px; /* Define o tamanho do fundo da onda inferior. */
 }
 
 .waveAnimation .waveBottom {
-  animation: move_wave 15s linear infinite;
+  animation: move_wave 15s linear infinite; /* Aplica a animação move_wave na onda inferior. */
 }

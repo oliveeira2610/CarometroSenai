@@ -1,89 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-
+/* Estilização para o título dos cards */
 .Cards-h1 {
-  text-align: center;
-  color: rgb(124, 124, 124);
-  font-family: 'Ubuntu', sans-serif;
-  margin-top: 6%;
-  height: 80px;
+  text-align: center; /* Alinha o texto ao centro */
+  color: rgb(124, 124, 124); /* Define a cor do texto */
+  font-family: 'Ubuntu', sans-serif; /* Define a família da fonte */
+  margin-top: 6%; /* Define a margem superior */
+  height: 80px; /* Define a altura do elemento */
 }
 
+/* Estilização da lista de cards */
+.cards-list {
+  z-index: 0; /* Define a ordem de empilhamento do elemento */
+  width: 100%; /* Define a largura do elemento */
+  display: flex; /* Define o layout flexível */
+  justify-content: space-around; /* Alinha os itens ao redor com espaço uniforme */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha quando não há espaço suficiente */
+}
 
- .cards-list {
-    z-index: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    margin: 30px auto;
-    width: 300px;
-    height: 350px;
-    border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-    cursor: pointer;
-    transition: 0.4s;
-    
-  }
-  
-  .card .botao-card{
-    text-decoration: none;
-  }
+/* Estilização do card */
+.card {
+  margin: 30px auto; /* Define as margens */
+  width: 300px; /* Define a largura do elemento */
+  height: 350px; /* Define a altura do elemento */
+  border-radius: 40px; /* Define o raio da borda */
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); /* Adiciona sombra */
+  cursor: pointer; /* Define o cursor do mouse */
+  transition: 0.4s; /* Adiciona transição suave */
+}
 
-  .card .card_image {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-  }
-  
-  .card .card_image_Idev {
-    width: 300px;
-    height: 355px;
-    border-radius: 40px;
-  }
+/* Estilização do botão dentro do card */
+.card .botao-card {
+  text-decoration: none; /* Remove a decoração de texto */
+}
 
-  .card .card_image img {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-    object-fit: cover;
-  }
-  
-  .card .card_title {
-    text-align: center;
-    border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    text-decoration: none;
-    height: 40px;
-    margin-bottom: -140px;
-    font-family: 'Ubuntu', sans-serif;
-    color:rgb(136, 138, 139);
-  }
-  
-  .card:hover {
-    transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-      -5px -5px 30px 15px rgba(0,0,0,0.22);
-  }
-  
-  .title-white {
-    color: white;
-  }
-  
-  .title-black {
-    color: black;
-  }
-  
+/* Estilização da imagem dentro do card */
+.card .card_image {
+  width: inherit; /* Herda a largura do elemento pai */
+  height: inherit; /* Herda a altura do elemento pai */
+  border-radius: 40px; /* Define o raio da borda */
+}
 
-  @media all and (max-width: 500px) {
-    .card-list {
-      /* On small screens, we are no longer using row direction but column */
-      flex-direction: column;
-    }
-  }
+/* Estilização da imagem do card específico para o curso IDEV */
+.card .card_image_Idev {
+  width: 300px; /* Define a largura do elemento */
+  height: 355px; /* Define a altura do elemento */
+  border-radius: 40px; /* Define o raio da borda */
+}
 
+/* Estilização da imagem dentro do card */
+.card_image img {
+  width: inherit; /* Herda a largura do elemento pai */
+  height: inherit; /* Herda a altura do elemento pai */
+  border-radius: 40px; /* Define o raio da borda */
+  object-fit: cover; /* Redimensiona a imagem para preencher o contêiner, preservando a proporção da imagem */
+}
+
+/* Estilização do título do card */
+.card .card_title {
+  text-align: center; /* Alinha o texto ao centro */
+  border-radius: 0px 0px 40px 40px; /* Define o raio da borda */
+  font-family: sans-serif; /* Define a família da fonte */
+  font-weight: bold; /* Define o peso da fonte como negrito */
+  font-size: 30px; /* Define o tamanho da fonte */
+  text-decoration: none; /* Remove a decoração de texto */
+  height: 40px; /* Define a altura do elemento */
+  margin-bottom: -140px; /* Define a margem inferior negativa */
+  font-family: 'Ubuntu', sans-serif; /* Define a família da fonte */
+  color: rgb(136, 138, 139); /* Define a cor do texto */
+}
+
+/* Estilização do card quando o mouse está sobre ele */
+.card:hover {
+  transform: scale(0.9, 0.9); /* Reduz o tamanho do elemento */
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), -5px -5px 30px 15px rgba(0,0,0,0.22); /* Adiciona sombra */
+}
+
+/* Estilização do texto do título quando o fundo é branco */
+.title-white {
+  color: white; /* Define a cor do texto */
+}
+
+/* Estilização do texto do título quando o fundo é preto */
+.title-black {
+  color: black; /* Define a cor do texto */
+}
+
+/* Media query para ajustar o layout em dispositivos com largura máxima de 500px */
+@media all and (max-width: 500px) {
+  .cards-list {
+    /* Em telas pequenas, altera a direção dos itens para coluna */
+    flex-direction: column; /* Define a direção do layout flexível */
+  }
+}

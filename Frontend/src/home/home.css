@@ -1,215 +1,213 @@
+/* Importação da fonte 'Ubuntu' do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+/* Estilos para o elemento HTML */
 html {
-  height: 100%;
-  background: gainsboro;
+  height: 100%; /* Define a altura do elemento HTML como 100% */
+  background: gainsboro; /* Define o plano de fundo como gainsboro */
 }
 
+/* Estilos para a classe 'Tela-Home' */
 .Tela-Home {
-  width: 100%;
+  width: 100%; /* Define a largura como 100% */
 }
 
+/* Estilos para o título da página */
 .header-h1 {
-  text-align: center;
-  color: aliceblue;
-  font-family: 'Ubuntu', sans-serif;
-
+  text-align: center; /* Alinha o texto ao centro */
+  color: aliceblue; /* Define a cor do texto como aliceblue */
+  font-family: 'Ubuntu', sans-serif; /* Define a família da fonte como 'Ubuntu' */
 }
 
-
+/* Estilos para a imagem lateral */
 .imagem-lateral {
-  width: 50%;
-  height: 60vh;
-  padding: 20px;
-  background-color: rgb(167, 174, 175);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
+  width: 50%; /* Define a largura como 50% */
+  height: 60vh; /* Define a altura como 60% da altura da viewport */
+  padding: 20px; /* Adiciona um preenchimento interno de 20px */
+  background-color: rgb(167, 174, 175); /* Define a cor de fundo */
+  border-radius: 20px; /* Adiciona um raio de borda de 20px */
+  display: flex; /* Usa o modelo de layout flexível */
+  flex-direction: column; /* Define a direção dos elementos como coluna */
 }
 
+/* Estilos para o conteúdo principal */
 .conteudo {
-  display: flex;
-  justify-content:space-around;
-  padding: 70px;
-  
+  display: flex; /* Usa o modelo de layout flexível */
+  justify-content: space-around; /* Distribui o espaço uniformemente em torno dos elementos */
+  padding: 70px; /* Adiciona um preenchimento interno de 70px */
 }
 
+/* Estilos para o cabeçalho */
 header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: rgb(124, 124, 124);
-  width: 100%;
-  height: 80px;
+  display: flex; /* Usa o modelo de layout flexível */
+  flex-direction: row; /* Define a direção dos elementos como linha */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  justify-content: flex-start; /* Alinha os itens horizontalmente ao início */
+  background-color: rgb(124, 124, 124); /* Define a cor de fundo */
+  width: 100%; /* Define a largura como 100% */
+  height: 80px; /* Define a altura como 80px */
 }
 
+/* Estilos para o logo do Senai */
 .senailogo {
- 
-  margin-right: 30%;
-  width: 30%;
+  margin-right: 30%; /* Define a margem à direita como 30% */
+  width: 30%; /* Define a largura como 30% */
 }
-.link-senai-logo{
-  width: 43.8%;
-}
-/* //////////////////////////////Sidenav//////////////////////////////// */
 
+/* Estilos para o link do logo do Senai */
+.link-senai-logo {
+  width: 43.8%; /* Define a largura como 43.8% */
+}
+
+/* Estilos para a barra lateral */
 .sidenav {
-  width: 210px;
-  display: flex;
-  flex-direction: column;
-  background-color:rgb(124, 124, 124);
-  border-radius: 20px;
-  padding: 3%;
-  
+  width: 210px; /* Define a largura como 210px */
+  display: flex; /* Usa o modelo de layout flexível */
+  flex-direction: column; /* Define a direção dos elementos como coluna */
+  background-color: rgb(124, 124, 124); /* Define a cor de fundo */
+  border-radius: 20px; /* Adiciona um raio de borda de 20px */
+  padding: 3%; /* Adiciona um preenchimento interno de 3% */
 }
 
-
-
-/* Style the sidenav links and the dropdown button */
-.sidenav a{
-  
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: rgb(246, 247, 247);
-  display: flex;
-  border: none;
-  background: none;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
-  display: flex;
-  justify-content: left;
-  align-items: start;
-  
-}
+/* Estilos para os links da barra lateral e botões de dropdown */
+.sidenav a,
 .dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: rgb(246, 247, 247);
-  display: flex;
-  border: none;
-  background: none;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
-  display: flex;
-
+  padding: 6px 8px 6px 16px; /* Adiciona um preenchimento interno */
+  text-decoration: none; /* Remove a decoração de texto padrão */
+  font-size: 20px; /* Define o tamanho da fonte como 20px */
+  color: rgb(246, 247, 247); /* Define a cor do texto */
+  display: flex; /* Usa o modelo de layout flexível */
+  border: none; /* Remove a borda */
+  background: none; /* Remove o fundo */
+  width: 100%; /* Define a largura como 100% */
+  text-align: left; /* Alinha o texto à esquerda */
+  cursor: pointer; /* Define o cursor como apontador */
+  outline: none; /* Remove o contorno */
+  display: flex; /* Usa o modelo de layout flexível */
+  justify-content: left; /* Alinha os itens horizontalmente à esquerda */
+  align-items: start; /* Alinha os itens verticalmente ao início */
 }
 
-/* On mouse-over */
+/* Estilos para os links e botões de dropdown quando passar o mouse por cima */
 .sidenav a:hover,
 .dropdown-btn:hover {
-  color: #f1f1f1;
+  color: #f1f1f1; /* Muda a cor do texto quando o mouse passa por cima */
 }
 
-/* Main content */
+/* Estilos para o conteúdo principal */
 .main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 20px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+  margin-left: 200px; /* Define a margem à esquerda como 200px */
+  font-size: 20px; /* Define o tamanho da fonte como 20px */
+  padding: 0px 10px; /* Adiciona um preenchimento interno */
 }
 
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+/* Estilos para o contêiner do dropdown (inicialmente oculto) */
 .dropdown-container {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease-in-out;
+  max-height: 0; /* Define a altura máxima como 0 */
+  overflow: hidden; /* Esconde o conteúdo que ultrapassa o contêiner */
+  transition: max-height 0.4s ease-in-out; /* Adiciona uma transição suave */
 }
 
+/* Estilos para o contêiner do dropdown quando está visível */
 .dropdown-container.show {
-  max-height: 200px; /* Ajuste este valor conforme necessário */
+  max-height: 200px; /* Define a altura máxima como 200px */
 }
+/* Estilos para o ícone de seta para baixo */
 .fa-caret-down {
-  transform: rotate(-90deg);
-  transition: transform 0.6s ease;
+  transform: rotate(-90deg); /* Rotaciona o ícone 90 graus para a esquerda */
+  transition: transform 0.6s ease; /* Adiciona uma transição suave */
 }
 
+/* Estilos para o ícone de seta para baixo quando ativo */
 .fa-caret-down.active {
-  transform: rotate(0deg);
+  transform: rotate(0deg); /* Rotaciona o ícone de volta para sua posição original */
 }
 
-/* //////////////////////////////////////////////////////////////////////////////// */
-
-
-
-
-.flex { /*Flexbox for containers*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+/* Flexbox para contêineres */
+.flex {
+  display: flex; /* Usa o modelo de layout flexível */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  text-align: center; /* Alinha o texto ao centro */
 }
 
+/* Estilos para as ondas na parte inferior da página */
 .waves-home {
-  position:absolute;
-  width: 100%;
-  min-height:100px;
-  max-height:150px;
-  
+  position: absolute; /* Define a posição absoluta */
+  width: 100%; /* Define a largura como 100% */
+  min-height: 100px; /* Define a altura mínima como 100px */
+  max-height: 150px; /* Define a altura máxima como 150px */
   bottom: 0; /* Coloca as ondas na parte inferior */
   z-index: -1; /* Garante que as ondas fiquem atrás do conteúdo */
 }
 
+/* Estilos para o conteúdo */
 .content {
-  position:relative;
-  height:20vh;
-  text-align:center;
-  background-color: white;
+  position: relative; /* Define a posição relativa */
+  height: 20vh; /* Define a altura como 20% da altura da viewport */
+  text-align: center; /* Alinha o texto ao centro */
+  background-color: white; /* Define o plano de fundo como branco */
 }
 
-/* Animation */
-
+/* Animação */
 .parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite; /* Define a animação */
 }
 .parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
+  animation-delay: -2s; /* Adiciona um atraso à primeira onda */
+  animation-duration: 7s; /* Define a duração da animação */
 }
 .parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
+  animation-delay: -3s; /* Adiciona um atraso à segunda onda */
+  animation-duration: 10s; /* Define a duração da animação */
 }
 .parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
+  animation-delay: -4s; /* Adiciona um atraso à terceira onda */
+  animation-duration: 13s; /* Define a duração da animação */
 }
 .parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
+  animation-delay: -5s; /* Adiciona um atraso à quarta onda */
+  animation-duration: 20s; /* Define a duração da animação */
 }
 @keyframes move-forever {
   0% {
-   transform: translate3d(-90px,0,0);
+    transform: translate3d(-90px, 0, 0); /* Move a onda para a esquerda */
   }
-  100% { 
-    transform: translate3d(85px,0,0);
+  100% {
+    transform: translate3d(85px, 0, 0); /* Move a onda para a direita */
   }
 }
-/*Shrinking for mobile*/
+
+/* Diminuição para dispositivos móveis */
 @media (max-width: 587px) {
   .waves {
-    height:40px;
-    min-height:40px;
+    height: 40px; /* Define a altura das ondas como 40px */
+    min-height: 40px; /* Define a altura mínima das ondas como 40px */
   }
   .content {
-    height:30vh;
+    height: 30vh; /* Define a altura como 30% da altura da viewport */
   }
   h1 {
-    font-size:24px;
+    font-size: 24px; /* Define o tamanho da fonte do título como 24px */
   }
   .imagem-lateral {
-    width: 0%;
-    height: 60vh;
-    padding: 0px;
-    background-color: rgba(167, 174, 175, 0);
-    border-radius: 0px;
-    display: flex;
-    flex-direction: column;
+    width: 0%; /* Oculta a imagem lateral */
+    height: 60vh; /* Define a altura como 60% da altura da viewport */
+    padding: 0px; /* Remove o preenchimento */
+    background-color: rgba(167, 174, 175, 0); /* Define o plano de fundo como transparente */
+    border-radius: 0px; /* Remove o raio de borda */
+    display: flex; /* Usa o modelo de layout flexível */
+    flex-direction: column; /* Define a direção dos elementos como coluna */
+  }
+}
+
+/* Diminuição para dispositivos móveis com largura máxima de 430px */
+@media (max-width: 430px) {
+  .senailogo {
+    margin-right: 30%; /* Define a margem à direita como 30% */
+    width: 80px; /* Define a largura como 80px */
+  }
+  .link-senai-logo {
+    width: 80px; /* Define a largura como 80px */
   }
 }

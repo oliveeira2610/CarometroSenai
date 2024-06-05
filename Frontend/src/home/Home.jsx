@@ -3,11 +3,13 @@ import "./home.css"; // Importe os estilos CSS da página inicial
 import { Link } from "react-router-dom";
 
 function Home() {
+  // Estados para controlar a abertura e fechamento dos dropdowns
   const [dropdownOpenHome, setDropdownOpenHome] = useState(false);
   const [dropdownOpenUsuarios, setDropdownOpenUsuarios] = useState(false);
   const [dropdownOpenAluno, setDropdownOpenAluno] = useState(false);
   const [dropdownOpenMatricula, setDropdownOpenMatricula] = useState(false);
 
+  // Funções para alternar a abertura e fechamento dos dropdowns
   const toggleDropdownHome = () => {
     setDropdownOpenHome(!dropdownOpenHome);
   };
@@ -26,13 +28,16 @@ function Home() {
 
   return (
     <>
+      {/* Importação do CSS de font-awesome para ícones */}
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       ></link>
 
+      {/* Estrutura da tela inicial */}
       <div className="Tela-home">
         <header className="header">
+          {/* Link para a página inicial */}
           <Link to="/home" className="link-senai-logo">
             <img
               className="senailogo"
@@ -41,33 +46,36 @@ function Home() {
             />
           </Link>
 
+          {/* Título da página */}
           <h1 className="header-h1">Senai Shunji Nishimura</h1>
         </header>
 
+        {/* Conteúdo principal da página */}
         <div className="conteudo">
+          {/* Barra lateral com links e dropdowns */}
           <div className="sidenav">
-            <a href="#about"></a>
-            {/* ////////////////////////////////home///////////////////////////////////////////// */}
-
+            {/* Link para a seção Home */}
             <Link to="/home" className="botaohome">
               Home
             </Link>
 
-            {/* /////////////////////////////////usuários//////////////////////////////////////////// */}
-
+            {/* Dropdown para a seção de Usuários */}
             <button className="dropdown-btn" onClick={toggleDropdownUsuarios}>
               Usuários
+              {/* Ícone de seta que indica o estado do dropdown */}
               <i
                 className={`fa fa-caret-down ${
                   dropdownOpenUsuarios ? "active" : ""
                 }`}
               ></i>
             </button>
+            {/* Contêiner do dropdown de Usuários */}
             <div
               className={`dropdown-container ${
                 dropdownOpenUsuarios ? "show" : ""
               }`}
             >
+              {/* Links dentro do dropdown */}
               <Link to="/tirarfoto" className="action-button">
                 &nbsp;&nbsp;Tirar fotos
               </Link>
@@ -76,21 +84,23 @@ function Home() {
               </Link>
             </div>
 
-            {/* /////////////////////////////////cursos//////////////////////////////////////////// */}
-
+            {/* Dropdown para a seção de Cursos */}
             <button className="dropdown-btn" onClick={toggleDropdownAluno}>
               Cursos
+              {/* Ícone de seta que indica o estado do dropdown */}
               <i
                 className={`fa fa-caret-down ${
                   dropdownOpenAluno ? "active" : ""
                 }`}
               ></i>
             </button>
+            {/* Contêiner do dropdown de Cursos */}
             <div
               className={`dropdown-container ${
                 dropdownOpenAluno ? "show" : ""
               }`}
             >
+              {/* Links dentro do dropdown */}
               <Link to="/idev" className="action-button">
                 &nbsp;&nbsp;Desenvolvimento &nbsp;&nbsp;de Sistemas
               </Link>
@@ -101,15 +111,16 @@ function Home() {
                 &nbsp;&nbsp;Mecânica
               </Link>
             </div>
-
-            {/* //////////////////////////////imagem lateral//////////////////////////////////////////// */}
           </div>
+
+          {/* Imagem lateral */}
           <img
             className="imagem-lateral"
             src="https://live.staticflickr.com/7601/16996079569_dbd29856a7_b.jpg"
             alt="Imagem Lateral"
           />
 
+          {/* Elemento SVG para a forma ondulada na parte inferior da página */}
           <svg
             className="waves-home"
             xmlns="http://www.w3.org/2000/svg"
@@ -119,11 +130,13 @@ function Home() {
             shapeRendering="auto"
           >
             <defs>
+              {/* Definição do caminho da onda */}
               <path
                 id="gentle-wave"
                 d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
               />
             </defs>
+            {/* Grupo para a paralaxe da onda */}
             <g className="parallax">
               <use
                 xlinkHref="#gentle-wave"

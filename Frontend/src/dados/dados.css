@@ -1,64 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); /* Importa a fonte 'Ubuntu' do Google Fonts. */
 
-
-
-.geral-dados{
-display: flex;
-justify-content: center ;
-align-items: center;
-width: inherit;
-height: inherit;
-}
-.dados-h1{
-  text-align: center;
-  color: rgb(124, 124, 124);
-  font-family: 'Ubuntu', sans-serif;
-  margin-top: 2%;
-  height: 80px;
+body, html {
+  margin: 0; /* Remove a margem padrão do body e html. */
+  padding: 0; /* Remove o padding padrão do body e html. */
+  font-family: 'Ubuntu', sans-serif; /* Define a fonte 'Ubuntu' para todo o conteúdo. */
 }
 
-
-.card-dados{
-  height: 500px;
-  width: 70%;
-  background-color: rgb(131, 131, 131);
-  border-radius: 20px;
-  display: flex;
-  justify-content: space-around;
+.geral-dados {
+  display: flex; /* Define o layout flexível para o container. */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente. */
+  align-items: center; /* Centraliza o conteúdo verticalmente. */
+  width: 100%; /* Define a largura do container como 100% do pai. */
+  height: 100%; /* Define a altura do container como 100% do pai. */
+  box-sizing: border-box; /* Inclui o padding e a border na largura e altura total dos elementos. */
 }
 
-.dados-img{
-   background-color: rgb(59, 59, 59);
-    width: 80%;
-    height: 90%;
-    border-radius: 20px;
-    margin-top: 5%;
-        
+.dados-h1 {
+  text-align: center; /* Alinha o texto ao centro. */
+  color: rgb(124, 124, 124); /* Define a cor do texto. */
+  margin-top: 1%; /* Define a margem superior. */
+  height: 80px; /* Define a altura do elemento. */
 }
 
-.informacoes-dados-h1{
- color:aliceblue
+.card-dados {
+  background-color: rgb(131, 131, 131); /* Define a cor de fundo. */
+  border-radius: 20px; /* Define bordas arredondadas. */
+  display: flex; /* Define o layout flexível. */
+  flex-direction: column; /* Organiza os filhos em coluna. */
+  align-items: center; /* Centraliza os filhos horizontalmente. */
+  width: 90%;  /* Define a largura como 90% do pai. */
+  max-width: 900px;  /* Define a largura máxima. */
+  padding: 20px; /* Adiciona padding interno. */
+  box-sizing: border-box; /* Inclui o padding e a border na largura e altura total. */
+  z-index: 1000; /* Define a ordem de empilhamento para sobrepor outros elementos. */
 }
 
-.informacoes-dados{
-  background-color: rgb(59, 59, 59);
-  height: 400px;
-  width: 500px;
-  margin-top: 5%;
-  border-radius: 20px;
-  text-align: start;
-  display: grid;
-  padding-left: 10px;
+.dados-img {
+  background-color: rgb(59, 59, 59); /* Define a cor de fundo. */
+  width: 100%; /* Define a largura como 100% do pai. */
+  max-width: 400px; /* Define a largura máxima. */
+  height: auto; /* Mantém a proporção da imagem. */
+  border-radius: 20px; /* Define bordas arredondadas. */
+  margin-top: 5%; /* Define a margem superior. */
+  object-fit: cover; /* Ajusta a imagem para cobrir o container. */
 }
 
-  @media all and (max-width: 500px) {
-    .card-dados{
-      height: 300px;
-      height: 500px;
-    }
-    .card-list {
-      /* On small screens, we are no longer using row direction but column */
-      flex-direction: column;
-    }
+.informacoes-dados-h1 {
+  color: aliceblue; /* Define a cor do texto. */
+  text-align: start; /* Alinha o texto ao início. */
+  display: flex; /* Define o layout flexível. */
+  flex-direction: column; /* Organiza os filhos em coluna. */
+  padding: 5px; /* Adiciona padding interno. */
+  box-sizing: border-box; /* Inclui o padding e a border na largura e altura total. */
+}
+
+.informacoes-dados {
+  background-color: rgb(59, 59, 59); /* Define a cor de fundo. */
+  width: 100%; /* Define a largura como 100% do pai. */
+  max-width: 800px;  /* Define a largura máxima. */
+  margin-top: 5%; /* Define a margem superior. */
+  border-radius: 20px; /* Define bordas arredondadas. */
+  padding: 20px;  /* Adiciona padding para melhor espaçamento. */
+  box-sizing: border-box; /* Inclui o padding e a border na largura e altura total. */
+}
+
+@media (min-width: 768px) { /* Define estilos para telas com largura mínima de 768px. */
+  .card-dados {
+    flex-direction: row; /* Organiza os filhos em linha. */
+    align-items: flex-start; /* Alinha os filhos ao início verticalmente. */
   }
-
+  .dados-img {
+    width: 400px; /* Define a largura da imagem. */
+    height: 500px; /* Define a altura da imagem. */
+    margin-top: 0; /* Remove a margem superior. */
+  }
+  .informacoes-dados {
+    width: calc(100% - 420px);  /* Define a largura subtraindo a largura da imagem e margem. */
+    margin-top: 0; /* Remove a margem superior. */
+    margin-left: 20px; /* Adiciona margem à esquerda. */
+  }
+}
